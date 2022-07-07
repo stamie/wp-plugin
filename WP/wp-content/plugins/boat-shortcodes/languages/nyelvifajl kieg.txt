@@ -1,0 +1,271 @@
+msgid "Show only discounted yachts"
+msgstr "Csak az akciós hajókat mutasd"
+
+msgid "Ignore options"
+msgstr "Az opciózott hajókat hagyd figyelmen kívül"
+
+msgid "Fisherman"
+msgstr "Horgász"
+
+msgid "Gulet"
+msgstr "Gulet"
+
+msgid "Jet Ski"
+msgstr "Jet Ski"
+
+msgid "Luxury catamaran"
+msgstr "Luxus katamarán"
+
+msgid "Luxury motor yacht"
+msgstr "Luxus motot yacht"
+
+msgid "Luxury sailing yacht"
+msgstr "Luxus vitorlás yacht"
+
+msgid "Mini Cruiser"
+msgstr "Mini Cruiser"
+
+msgid "Motor boat"
+msgstr "Motorcsónak"
+
+msgid "Motor yacht"
+msgstr "Motoros yacht"
+
+msgid "Motorsailer"
+msgstr "Motoros vitorlás"
+
+msgid "Power catamaran"
+msgstr "Power katamarán"
+
+msgid "Rubber boat (R.I.B.)"
+msgstr "Gumitestű hajó"
+
+msgid "Sailing yacht"
+msgstr "Vitorlás"
+
+msgid "Speed boat"
+msgstr "Speed boat"
+
+msgid "Trimaran"
+msgstr "Trimaran"
+
+msgid "Wooden yacht"
+msgstr "Fatestű hajó"
+
+msgid "Catamaran"
+msgstr "Katamarán"
+
+msgid "Floating villa"
+msgstr "Úszó villa"
+
+msgid "All inclusive"
+msgstr "All inclusive"
+
+msgid "Powered"
+msgstr "Powered"
+
+msgid "Berth"
+msgstr "Berth"
+
+msgid "Flotilla"
+msgstr "Flotilla"
+
+msgid "Cabin"
+msgstr "Kabin charter"
+
+msgid "Crewed"
+msgstr "Crewed"
+
+msgid "Bareboat"
+msgstr "Csak hajóbérlés "
+
+msgid "All"
+msgstr "Minden"
+
+msgid "All Models"
+msgstr "Minden modell"
+
+msgid "View details"
+msgstr "Mutasd az adatokat"
+
+msgid "Price: low to high"
+msgstr "Ár alacsony-magas"
+
+msgid "Price: high to low"
+msgstr "Ár magas-alacsony"
+
+msgid "Length: ascending"
+msgstr "Hossz: növekvő"
+
+msgid "Length: descending"
+msgstr "Hossz: csökkenő"
+
+msgid "Berts: ascending"
+msgstr "Ágyak: növekvő"
+
+msgid "Berts: descending"
+msgstr "Ágyak: csökkenő"
+
+msgid "Capacity: ascending"
+msgstr "Befogadóképesség: növekvő"
+
+msgid "Capacity: descending"
+msgstr "Befogadóképesség: csökkenő"
+
+msgid "Number of cabins: ascending"
+msgstr "Kabinok száma: növekvő"
+
+msgid "Number of cabins: descending"
+msgstr "Kabinok száma: csökkenő"
+
+msgid "Yacht builder year: ascending"
+msgstr "Építés éve: növekvő"
+
+msgid "Yacht builder year: descending"
+msgstr "Éptés éve: csökkenő"
+
+msgid "Please select"
+msgstr "Válassz"
+
+msgid "to"
+msgstr "ig"
+
+msgid "next"
+msgstr "következő"
+
+msgid "Option"
+msgstr "Opciót helyezek el"
+
+msgid "Berths cabin"
+msgstr "Férőhely: kabin"
+
+msgid "Berths salon"
+msgstr "Férőhely: szalon"
+
+msgid "Berths crew"
+msgstr "Férőhely: személyzet"
+
+msgid "Base"
+msgstr "Bázis"
+
+msgid "Kind"
+msgstr "Típus"
+
+msgid "Sailing yacht"
+msgstr "Vitorlás yacht"
+
+msgid "Check in time"
+msgstr "Bejelentkezés ideje"
+
+msgid "Check out time"
+msgstr "Kijelentkezés ideje"
+
+msgid "Sails"
+msgstr "Vitorlák"
+
+msgid "Navigation"
+msgstr "Navigáció"
+
+msgid "Safety"
+msgstr "Biztosnág"
+
+msgid "Yacht electrics"
+msgstr "Yacht elektronika"
+
+msgid "Deck"
+msgstr "Fedélzet"
+
+msgid "Galley"
+msgstr "Galéria"
+
+msgid "Interior"
+msgstr "Belső"
+
+msgid "Entertainment"
+msgstr "Szórakozás"
+
+msgid "Steering Wheel"
+msgstr "Kormány"
+
+msgid "Tiller steereing"
+msgstr "Kormányvezérlés"
+
+msgid "2 Steering Wheels"
+msgstr "2 kormány"
+
+msgid "Joystick"
+msgstr "Joystick"
+
+msgid "classic/standard"
+msgstr "klasszikus/alapértelmezett"
+
+msgid "full batten"
+msgstr "full batten"
+
+msgid "furling/roll"
+msgstr "furling/roll"
+
+msgid "half batten"
+msgstr "half batten"
+
+msgid "jib"
+msgstr "orrvitorla"
+
+msgid "self tacking jib"
+msgstr "orrvitorla behúzó"
+msgid "Destinations"
+msgstr "Uticél"
+
+msgid "Change destination"
+msgstr "Uticél megváltoztatása"
+
+msgid "Date From"
+msgstr "-tól"
+
+msgid "Duration"
+msgstr "Időtartam"
+
+msgid "Distance"
+msgstr "Távolság"
+
+msgid "Types"
+msgstr "Típus"
+
+msgid "Is sale"
+msgstr "Is sale"
+
+msgid "Ignore options"
+msgstr "Opció figyelmen kívül hagyása"
+
+msgid "Flexibility"
+msgstr "Rugalmasság"
+
+msgid "Cabins"
+msgstr "Kabinok száma"
+
+msgid "Berths"
+msgstr "Férőhelyek"
+
+msgid "Sevice Types"
+msgstr "Szolgáltatástípus"
+
+msgid "Length"
+msgstr "Hossz"
+
+msgid "Equipments"
+msgstr "Felszereltség"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "PRICES & DISCOUNTS"
+msgstr "ÁRAK/KEDVEZMÉNYEK"
+
+msgid "BOAT PROPERTY"
+msgstr "A HAJÓ TULAJDONSÁGAI"
+
+msgid "ON THE MAP"
+msgstr "TÉRKÉPEN"
+
+msgid "send a request"
+msgstr "küldöm a kérést"

@@ -1,0 +1,120 @@
+
+msgid "per week"
+msgstr "/hét"
+
+msgid "per day"
+msgstr "/nap"
+
+msgid "per person"
+msgstr "/személy""
+
+msgid "per person /night"
+msgstr "/személy/éjszaka""
+
+msgid "per booking"
+msgstr "/foglalás"
+
+msgid "per day + food"
+msgstr "naponta + étkezés"
+
+msgid "per week/person"
+msgstr "/hét/személy"
+
+msgid "per week + food"
+msgstr "hetente + étkezés"
+
+msgid "one-way"
+msgstr "egyirányú út"
+
+msgid "per set"
+msgstr "/telepítés"
+
+msgid "per booking /crew"
+msgstr "/foglalás/személyzet"
+
+msgid "per piece"
+msgstr "darabonként"
+
+msgid "per night"
+msgstr "/éjszaka"
+
+msgid "per boat"
+msgstr "/hajó"
+
+msgid "one-way /person"
+msgstr "egy út/személy"
+
+msgid "per person/day"
+msgstr "személy/nap"
+
+msgid "per 2 weeks"
+msgstr "/2 hét"
+
+msgid "per 3 weeks"
+msgstr "/3 hét"
+
+msgid "per pet"
+msgstr "/palack"
+
+msgid "per cabin"
+msgstr "/kabin"
+
+msgid "per running hour"
+msgstr "/óra"
+
+msgid "per 4 weeks and more"
+msgstr "/4hét,vagy több"
+
+msgid "per nautical mile"
+msgstr "/tengeri mérföld"
+
+msgid "round trip"
+msgstr "körút"
+
+msgid "per pack"
+msgstr "/csomag"
+
+msgid "per liter"
+msgstr "/liter"
+
+msgid "per GB"
+msgstr "/GB"
+
+msgid "per hour"
+msgstr "/óra"
+
+msgid "per licence"
+msgstr "/liszensz"
+
+msgid "per ton"
+msgstr "tonnánként"
+
+msgid "per single bed"
+msgstr "/egyszemélyes ágy"
+
+msgid "per service"
+msgstr "/szolgáltatás"
+
+msgid "half an hour"
+msgstr "fél óra"
+
+msgid "per tank"
+msgstr "/tankolás"
+
+msgid "per meal"
+msgstr "/étkezés"
+
+msgid "per bottle"
+msgstr "/üveg"
+
+msgid "per person/per course"
+msgstr "/személy/túra"
+
+msgid "per guest/day"
+msgstr "/vendég/nap"
+
+msgid "per crew change"
+msgstr "személyzetváltásonként"
+
+msgid "per guest/night"
+msgstr "/vendég/éjszaka"

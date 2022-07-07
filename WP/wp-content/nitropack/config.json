@@ -1,0 +1,19 @@
+{
+    "boattheglobe.ca": {
+        "siteId": "HVVYbXiJejuTgXJqKWXaXeACyhRXbAmZ",
+        "siteSecret": "P85pbB6X9FWH49c8fcrMLNWADd5mAS2doZtvlyDlnOByrAxr509hPNhErpiNSO4v",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "34667e72bded6bc59820fd9e0563dc30",
+        "home_url": "https:\/\/boattheglobe.ca",
+        "admin_url": "https:\/\/boattheglobe.ca\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.4"
+    }
+}

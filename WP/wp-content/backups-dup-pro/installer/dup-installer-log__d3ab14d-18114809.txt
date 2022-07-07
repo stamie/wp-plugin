@@ -1,0 +1,2232 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 10:39:59
+* VERSION: 4.0.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.20                                |7.4.20
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.20 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home/boattheg/public_html"
+LOG FILE 644________: false
+REQUEST URL_________: "https://boattheglobe.ca/dup-installer/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/boattheg/public_html"
+URL_NEW_____________: "https://boattheglobe.ca"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/boattheg/public_html/20210618_yachtcharterboatrentalboat_[HASH]_20210618114809_archive.daf"
+ARCHIVE SIZE________: 2.63GB
+CREATED_____________: 2021-06-18 11:48:09
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 4.0.3
+LICENSE_____________: Business or Gold
+DB VERSION__________: 5.7.34
+DB FILE SIZE________: 88.84MB
+DB TABLES___________: 49
+DB ROWS_____________: 256943
+URL HOME____________: https://boattheglobe.com
+URL CORE____________: https://boattheglobe.com
+URL CONTENT_________: https://boattheglobe.com/wp-content
+URL UPLOAD__________: https://boattheglobe.com/wp-content/uploads
+URL PLUGINS_________: https://boattheglobe.com/wp-content/plugins
+URL MU PLUGINS______: https://boattheglobe.com/wp-content/mu-plugins
+URL THEMES__________: https://boattheglobe.com/wp-content/themes
+PATH HOME___________: /home/b579188/public_html
+PATH ABS____________: /home/b579188/public_html
+PATH WPCONFIG_______: /home/b579188/public_html
+PATH WPCONTENT______: /home/b579188/public_html/wp-content
+PATH UPLOADS________: /home/b579188/public_html/wp-content/uploads
+PATH PLUGINS________: /home/b579188/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/b579188/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/b579188/public_html/wp-content/themes
+
+PLUGINS
+PLUGIN [SLUG:301-redirects/301-redirects.php                   ][ON:true ]  301 Redirects Pro
+PLUGIN [SLUG:admin-columns-pro/admin-columns-pro.php           ][ON:true ]  Admin Columns Pro
+PLUGIN [SLUG:ac-addon-yoast-seo/ac-addon-yoast-seo.php         ][ON:true ]  Admin Columns Pro - Yoast SEO
+PLUGIN [SLUG:ajax-search-pro/ajax-search-pro.php               ][ON:true ]  Ajax Search Pro
+PLUGIN [SLUG:all-in-one-wp-security-and-firewall/wp-security.php][ON:true ]  All In One WP Security
+PLUGIN [SLUG:better-search-replace/better-search-replace.php   ][ON:true ]  Better Search Replace
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:contact-form-7-international-telephone-input/index.php][ON:true ]  Contact Form 7 International Telephone Input
+PLUGIN [SLUG:wp-custom-body-class/custom_body_class.php        ][ON:true ]  Custom Body Class
+PLUGIN [SLUG:debug-permalinks/debug-permalinks.php             ][ON:false]  Debug permalinks
+PLUGIN [SLUG:display-categories-widget/display_categories_widget.php][ON:true ]  Display Categories Widget
+PLUGIN [SLUG:duplicate-post-page-menu-custom-post-type/duplicate-post-page-menu-cpt.php][ON:true ]  Duplicate Post Page Menu & Custom Post Type
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:dynamic-featured-image/dynamic-featured-image.php ][ON:true ]  Dynamic Featured Image
+PLUGIN [SLUG:stops-core-theme-and-plugin-updates/main.php      ][ON:true ]  Easy Updates Manager
+PLUGIN [SLUG:easy-wp-smtp/easy-wp-smtp.php                     ][ON:true ]  Easy WP SMTP
+PLUGIN [SLUG:q2w3-fixed-widget/q2w3-fixed-widget.php           ][ON:false]  Fixed Widget
+PLUGIN [SLUG:flamingo/flamingo.php                             ][ON:true ]  Flamingo
+PLUGIN [SLUG:bj-image-sitemap/bj-image-sitemap.php             ][ON:true ]  Image Sitemap Generator
+PLUGIN [SLUG:include-me/plugin.php                             ][ON:true ]  Include Me
+PLUGIN [SLUG:interlinks-manager/init.php                       ][ON:true ]  Interlinks Manager
+PLUGIN [SLUG:invisible-recaptcha/invisible-recaptcha.php       ][ON:false]  Invisible reCaptcha
+PLUGIN [SLUG:kk-star-ratings/index.php                         ][ON:true ]  kk Star Ratings
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:false]  LiteSpeed Cache
+PLUGIN [SLUG:loop-post-navigation-links/loop-post-navigation-links.php][ON:false]  Loop Post Navigation Links
+PLUGIN [SLUG:nitropack/main.php                                ][ON:true ]  NitroPack
+PLUGIN [SLUG:permalink-manager-pro/permalink-manager.php       ][ON:true ]  Permalink Manager Pro
+PLUGIN [SLUG:per-page-add-to/perpagehead.php                   ][ON:true ]  Per page head
+PLUGIN [SLUG:phoenix-media-rename/phoenix-media-rename.php     ][ON:true ]  Phoenix Media Rename
+PLUGIN [SLUG:recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php][ON:true ]  Recent Posts Widget With Thumbnails
+PLUGIN [SLUG:wp-schema-pro/wp-schema-pro.php                   ][ON:true ]  Schema Pro
+PLUGIN [SLUG:shortcode-in-menus/shortcode-in-menus.php         ][ON:true ]  Shortcode in Menus
+PLUGIN [SLUG:wp-async-css-master/wp-async-css.php              ][ON:false]  WP Async CSS
+PLUGIN [SLUG:wp-force-ssl/wp-force-ssl.php                     ][ON:true ]  WP Force SSL
+PLUGIN [SLUG:wp-media-folders/wp-media-folders.php             ][ON:true ]  WP Media Folders
+PLUGIN [SLUG:wp-post-nav/wp-post-nav.php                       ][ON:true ]  WP Post Nav
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false]  advanced-cache.php
+
+********************************************************************************
+SECURE CHECK -> GO TO SECURE PAGE
+LOG-TIME[/home/boattheg/public_html/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.02011]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [pwdcheck] START
+AJAX ACTION [pwdcheck] SUCCESS
+-------------------------
+
+STEP ACTION: "initialized"
+LOG-TIME[/home/boattheg/public_html/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.00713]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+LOG-TIME[/home/boattheg/public_html/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.00707]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Recovery URL" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+LOG-TIME[DELTA:   0.00301]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00380]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs files permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Configs files permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host name check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host name check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00213]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00089]  MESSAGE:TEST "Database version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00423]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/boattheg/public_html/dup-installer/classes/database/class.db.php:608] MSG: SELECT command denied to user 'boattheg_chan1'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'boattheg_chan1' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/boattheg/public_html/dup-installer/classes/validation/class.validation.database.service.php[872]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/boattheg/public_html/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[24]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/boattheg/public_html/dup-installer/classes/validation/class.validation.abstract.item.php[42]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/boattheg/public_html/dup-installer/classes/validation/class.validation.manager.php[217]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/boattheg/public_html/dup-installer/classes/validation/class.validation.manager.php[190]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/boattheg/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[148]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/boattheg/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[83]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/boattheg/public_html/dup-installer/main.installer.php[40]
+
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Test User Resources" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00112]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00040]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:42:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: -1
+RESTORE BACKUP MODE_: false
+BLOG NAME___________: "Yacht charter, Boat rental, Boat hire - BoatTheGlobe"
+HOME URL NEW________: "https://boattheglobe.ca"
+SITE URL NEW________: "https://boattheglobe.ca"
+CONTENT URL NEW_____: "https://boattheglobe.ca/wp-content"
+UPLOAD URL NEW______: "https://boattheglobe.ca/wp-content/uploads"
+PLUGINS URL NEW_____: "https://boattheglobe.ca/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://boattheglobe.ca/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/boattheg/public_html"
+SITE PATH NEW_______: "/home/boattheg/public_html"
+CONTENT PATH NEW____: "/home/boattheg/public_html/wp-content"
+UPLOAD PATH NEW_____: "/home/boattheg/public_html/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/boattheg/public_html/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/boattheg/public_html/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+EXTRACTION FILTERS
+FILTER FOLDER: "dup-installer"
+FILTER FILE  : "20210618_yachtcharterboatrentalboat_[HASH]_20210618114809_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+Failed to write to wp-content/plugins/phoenix-media-rename/wpml-screenshot-02.jpg. Error: Invalid glob header marker found <F>. location:8417028
+CHUNK COMPLETE - RUNTIME: 4.9393 sec. - Files processed: 3,400 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 22793648
+DAWN CONTINUE EXPAND
+#### seeking archive offset 22793648
+DUP EXPAND OFFSET 22793648
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8905 sec. - Files processed: 7,163 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 38790286
+DAWN CONTINUE EXPAND
+#### seeking archive offset 38790286
+DUP EXPAND OFFSET 38790286
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9014 sec. - Files processed: 9,811 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 76609866
+DAWN CONTINUE EXPAND
+#### seeking archive offset 76609866
+DUP EXPAND OFFSET 76609866
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2020/08/coast-of-lake-como-1536x402.jpg.webp. Error: Invalid glob header marker found <F>. location:118889391
+CHUNK COMPLETE - RUNTIME: 4.8968 sec. - Files processed: 10,981 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 125817994
+DAWN CONTINUE EXPAND
+#### seeking archive offset 125817994
+DUP EXPAND OFFSET 125817994
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9166 sec. - Files processed: 12,197 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 175063171
+DAWN CONTINUE EXPAND
+#### seeking archive offset 175063171
+DUP EXPAND OFFSET 175063171
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8902 sec. - Files processed: 13,441 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 224062995
+DAWN CONTINUE EXPAND
+#### seeking archive offset 224062995
+DUP EXPAND OFFSET 224062995
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9140 sec. - Files processed: 14,531 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 274007226
+DAWN CONTINUE EXPAND
+#### seeking archive offset 274007226
+DUP EXPAND OFFSET 274007226
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8914 sec. - Files processed: 15,394 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 324735269
+DAWN CONTINUE EXPAND
+#### seeking archive offset 324735269
+DUP EXPAND OFFSET 324735269
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9106 sec. - Files processed: 16,192 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 375442915
+DAWN CONTINUE EXPAND
+#### seeking archive offset 375442915
+DUP EXPAND OFFSET 375442915
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8840 sec. - Files processed: 17,049 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 426195971
+DAWN CONTINUE EXPAND
+#### seeking archive offset 426195971
+DUP EXPAND OFFSET 426195971
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8953 sec. - Files processed: 17,898 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 476812540
+DAWN CONTINUE EXPAND
+#### seeking archive offset 476812540
+DUP EXPAND OFFSET 476812540
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8923 sec. - Files processed: 18,821 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 527300829
+DAWN CONTINUE EXPAND
+#### seeking archive offset 527300829
+DUP EXPAND OFFSET 527300829
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9073 sec. - Files processed: 19,701 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 578019536
+DAWN CONTINUE EXPAND
+#### seeking archive offset 578019536
+DUP EXPAND OFFSET 578019536
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2020/02/beaches-in-mediterranean-1536x402.bk.jpg. Error: Invalid glob header marker found <F>. location:613567114
+CHUNK COMPLETE - RUNTIME: 4.8928 sec. - Files processed: 20,530 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 628787770
+DAWN CONTINUE EXPAND
+#### seeking archive offset 628787770
+DUP EXPAND OFFSET 628787770
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9015 sec. - Files processed: 21,448 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 679362888
+DAWN CONTINUE EXPAND
+#### seeking archive offset 679362888
+DUP EXPAND OFFSET 679362888
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9166 sec. - Files processed: 22,317 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 730218276
+DAWN CONTINUE EXPAND
+#### seeking archive offset 730218276
+DUP EXPAND OFFSET 730218276
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8990 sec. - Files processed: 23,197 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 780750916
+DAWN CONTINUE EXPAND
+#### seeking archive offset 780750916
+DUP EXPAND OFFSET 780750916
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9225 sec. - Files processed: 24,052 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 831360891
+DAWN CONTINUE EXPAND
+#### seeking archive offset 831360891
+DUP EXPAND OFFSET 831360891
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8969 sec. - Files processed: 24,934 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 882055872
+DAWN CONTINUE EXPAND
+#### seeking archive offset 882055872
+DUP EXPAND OFFSET 882055872
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8943 sec. - Files processed: 25,805 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 932656446
+DAWN CONTINUE EXPAND
+#### seeking archive offset 932656446
+DUP EXPAND OFFSET 932656446
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2020/02/best-place-to-stay-in-chioggia-768x201.jpg. Error: Invalid glob header marker found <F>. location:970075568
+CHUNK COMPLETE - RUNTIME: 4.9018 sec. - Files processed: 26,697 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 983131325
+DAWN CONTINUE EXPAND
+#### seeking archive offset 983131325
+DUP EXPAND OFFSET 983131325
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9104 sec. - Files processed: 27,517 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1033741611
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1033741611
+DUP EXPAND OFFSET 1033741611
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9123 sec. - Files processed: 28,263 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1084600992
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1084600992
+DUP EXPAND OFFSET 1084600992
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9021 sec. - Files processed: 29,118 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1135203136
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1135203136
+DUP EXPAND OFFSET 1135203136
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2020/10/marina-in-porto-vecchio.bk.jpg. Error: Invalid glob header marker found <F>. location:1179550701
+CHUNK COMPLETE - RUNTIME: 4.8994 sec. - Files processed: 29,788 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1186367632
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1186367632
+DUP EXPAND OFFSET 1186367632
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8894 sec. - Files processed: 30,517 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1237394038
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1237394038
+DUP EXPAND OFFSET 1237394038
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2020/10/sailing-in-bormes-les-mimosas-150x150.bk.jpg. Error: Invalid glob header marker found <F>. location:1262278170
+CHUNK COMPLETE - RUNTIME: 4.8938 sec. - Files processed: 31,247 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1288352911
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1288352911
+DUP EXPAND OFFSET 1288352911
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8823 sec. - Files processed: 31,978 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1339377802
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1339377802
+DUP EXPAND OFFSET 1339377802
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9046 sec. - Files processed: 32,798 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1390065356
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1390065356
+DUP EXPAND OFFSET 1390065356
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9151 sec. - Files processed: 33,881 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1439871685
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1439871685
+DUP EXPAND OFFSET 1439871685
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8944 sec. - Files processed: 35,025 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1489167260
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1489167260
+DUP EXPAND OFFSET 1489167260
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9292 sec. - Files processed: 36,112 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1538943543
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1538943543
+DUP EXPAND OFFSET 1538943543
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8898 sec. - Files processed: 37,182 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1588466712
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1588466712
+DUP EXPAND OFFSET 1588466712
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.4229 sec. - Files processed: 38,184 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1638428551
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1638428551
+DUP EXPAND OFFSET 1638428551
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9020 sec. - Files processed: 39,064 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1688888510
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1688888510
+DUP EXPAND OFFSET 1688888510
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8941 sec. - Files processed: 39,961 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1739260525
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1739260525
+DUP EXPAND OFFSET 1739260525
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9149 sec. - Files processed: 40,599 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1790550718
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1790550718
+DUP EXPAND OFFSET 1790550718
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8968 sec. - Files processed: 41,226 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1841569919
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1841569919
+DUP EXPAND OFFSET 1841569919
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8905 sec. - Files processed: 42,078 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1892264140
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1892264140
+DUP EXPAND OFFSET 1892264140
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9002 sec. - Files processed: 43,579 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1941512170
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1941512170
+DUP EXPAND OFFSET 1941512170
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8885 sec. - Files processed: 44,584 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1991905845
+DAWN CONTINUE EXPAND
+#### seeking archive offset 1991905845
+DUP EXPAND OFFSET 1991905845
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8994 sec. - Files processed: 45,522 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2042368954
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2042368954
+DUP EXPAND OFFSET 2042368954
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2019/12/boat-rental-marina-di-olbia.jpg. Error: Invalid glob header marker found <F>. location:2080186345
+CHUNK COMPLETE - RUNTIME: 4.9052 sec. - Files processed: 46,475 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2092989484
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2092989484
+DUP EXPAND OFFSET 2092989484
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9022 sec. - Files processed: 47,386 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2143584857
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2143584857
+DUP EXPAND OFFSET 2143584857
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9058 sec. - Files processed: 48,897 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2192893779
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2192893779
+DUP EXPAND OFFSET 2192893779
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9036 sec. - Files processed: 50,084 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2239515715
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2239515715
+DUP EXPAND OFFSET 2239515715
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9129 sec. - Files processed: 51,371 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2289205273
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2289205273
+DUP EXPAND OFFSET 2289205273
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9074 sec. - Files processed: 52,604 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2339109539
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2339109539
+DUP EXPAND OFFSET 2339109539
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8980 sec. - Files processed: 53,932 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2388780750
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2388780750
+DUP EXPAND OFFSET 2388780750
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9103 sec. - Files processed: 55,233 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2438497990
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2438497990
+DUP EXPAND OFFSET 2438497990
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8958 sec. - Files processed: 56,533 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2488180530
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2488180530
+DUP EXPAND OFFSET 2488180530
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2018/03/vacations-in-san-remo-768x576.bk.jpg. Error: Invalid glob header marker found <F>. location:2513012674
+CHUNK COMPLETE - RUNTIME: 4.6959 sec. - Files processed: 57,813 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2538026904
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2538026904
+DUP EXPAND OFFSET 2538026904
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1042 sec. - Files processed: 59,210 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2587766437
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2587766437
+DUP EXPAND OFFSET 2587766437
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.1685 sec. - Files processed: 60,542 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2639184138
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2639184138
+DUP EXPAND OFFSET 2639184138
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9091 sec. - Files processed: 61,856 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2688955645
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2688955645
+DUP EXPAND OFFSET 2688955645
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9118 sec. - Files processed: 65,161 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2733546033
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2733546033
+DUP EXPAND OFFSET 2733546033
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+Failed to write to wp-content/uploads/2018/09/weather-in-untergohren.jpg. Error: Invalid glob header marker found <F>. location:2746108784
+CHUNK COMPLETE - RUNTIME: 4.8989 sec. - Files processed: 68,786 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2777067483
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2777067483
+DUP EXPAND OFFSET 2777067483
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9085 sec. - Files processed: 70,610 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2799483211
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2799483211
+DUP EXPAND OFFSET 2799483211
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+DUP EXPAND DONE
+DAWN EXPAND ERRORS DETECTED
+wp-content/plugins/phoenix-media-rename/wpml-screenshot-02.jpg:Invalid glob header marker found <F>. location:8417028
+FILE EXTRACTION ERROR: wp-content/plugins/phoenix-media-rename/wpml-screenshot-02.jpg | MSG:Invalid glob header marker found <F>. location:8417028
+wp-content/uploads/2020/08/coast-of-lake-como-1536x402.jpg.webp:Invalid glob header marker found <F>. location:118889391
+FILE EXTRACTION ERROR: wp-content/uploads/2020/08/coast-of-lake-como-1536x402.jpg.webp | MSG:Invalid glob header marker found <F>. location:118889391
+wp-content/uploads/2020/02/beaches-in-mediterranean-1536x402.bk.jpg:Invalid glob header marker found <F>. location:613567114
+FILE EXTRACTION ERROR: wp-content/uploads/2020/02/beaches-in-mediterranean-1536x402.bk.jpg | MSG:Invalid glob header marker found <F>. location:613567114
+wp-content/uploads/2020/02/best-place-to-stay-in-chioggia-768x201.jpg:Invalid glob header marker found <F>. location:970075568
+FILE EXTRACTION ERROR: wp-content/uploads/2020/02/best-place-to-stay-in-chioggia-768x201.jpg | MSG:Invalid glob header marker found <F>. location:970075568
+wp-content/uploads/2020/10/marina-in-porto-vecchio.bk.jpg:Invalid glob header marker found <F>. location:1179550701
+FILE EXTRACTION ERROR: wp-content/uploads/2020/10/marina-in-porto-vecchio.bk.jpg | MSG:Invalid glob header marker found <F>. location:1179550701
+wp-content/uploads/2020/10/sailing-in-bormes-les-mimosas-150x150.bk.jpg:Invalid glob header marker found <F>. location:1262278170
+FILE EXTRACTION ERROR: wp-content/uploads/2020/10/sailing-in-bormes-les-mimosas-150x150.bk.jpg | MSG:Invalid glob header marker found <F>. location:1262278170
+wp-content/uploads/2019/12/boat-rental-marina-di-olbia.jpg:Invalid glob header marker found <F>. location:2080186345
+FILE EXTRACTION ERROR: wp-content/uploads/2019/12/boat-rental-marina-di-olbia.jpg | MSG:Invalid glob header marker found <F>. location:2080186345
+wp-content/uploads/2018/03/vacations-in-san-remo-768x576.bk.jpg:Invalid glob header marker found <F>. location:2513012674
+FILE EXTRACTION ERROR: wp-content/uploads/2018/03/vacations-in-san-remo-768x576.bk.jpg | MSG:Invalid glob header marker found <F>. location:2513012674
+wp-content/uploads/2018/09/weather-in-untergohren.jpg:Invalid glob header marker found <F>. location:2746108784
+FILE EXTRACTION ERROR: wp-content/uploads/2018/09/weather-in-untergohren.jpg | MSG:Invalid glob header marker found <F>. location:2746108784
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 10:47:52 - RUNTIME: 295.2143 sec. - Files processed: 73,101 of 73,101
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 10:47:52
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+CONTENT OWNER_______: 0
+TABLE PREFIX________: "rentx_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "rentx_ac_segments"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_ac_segments]
+TABLE "rentx_admin_columns"_____________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: rentx_admin_columns]
+TABLE "rentx_aiowps_events"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_events]
+TABLE "rentx_aiowps_failed_logins"______________________[ROWS:      96] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_failed_logins]
+TABLE "rentx_aiowps_global_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_global_meta]
+TABLE "rentx_aiowps_login_activity"_____________________[ROWS:     170] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_login_activity]
+TABLE "rentx_aiowps_login_lockdown"_____________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_login_lockdown]
+TABLE "rentx_aiowps_permanent_block"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_aiowps_permanent_block]
+TABLE "rentx_ajaxsearchpro"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: rentx_ajaxsearchpro]
+TABLE "rentx_ajaxsearchpro_priorities"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_ajaxsearchpro_priorities]
+TABLE "rentx_ajaxsearchpro_statistics"__________________[ROWS:     752] [EXTRACT|REPLACE] [INST NAME: rentx_ajaxsearchpro_statistics]
+TABLE "rentx_asp_index"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_asp_index]
+TABLE "rentx_asp_synonyms"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_asp_synonyms]
+TABLE "rentx_commentmeta"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_commentmeta]
+TABLE "rentx_comments"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_comments]
+TABLE "rentx_css_js_manager"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_css_js_manager]
+TABLE "rentx_daim_anchors"______________________________[ROWS:    6103] [EXTRACT|REPLACE] [INST NAME: rentx_daim_anchors]
+TABLE "rentx_daim_archive"______________________________[ROWS:    1000] [EXTRACT|REPLACE] [INST NAME: rentx_daim_archive]
+TABLE "rentx_daim_autolinks"____________________________[ROWS:    2939] [EXTRACT|REPLACE] [INST NAME: rentx_daim_autolinks]
+TABLE "rentx_daim_category"_____________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: rentx_daim_category]
+TABLE "rentx_daim_hits"_________________________________[ROWS:     928] [EXTRACT|REPLACE] [INST NAME: rentx_daim_hits]
+TABLE "rentx_daim_juice"________________________________[ROWS:     682] [EXTRACT|REPLACE] [INST NAME: rentx_daim_juice]
+TABLE "rentx_duplicator_pro_entities"___________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: rentx_duplicator_pro_entities]
+TABLE "rentx_duplicator_pro_packages"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: rentx_duplicator_pro_packages]
+TABLE "rentx_eum_logs"__________________________________[ROWS:     172] [EXTRACT|REPLACE] [INST NAME: rentx_eum_logs]
+TABLE "rentx_links"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_links]
+TABLE "rentx_litespeed_avatar"__________________________[ROWS:      28] [EXTRACT|REPLACE] [INST NAME: rentx_litespeed_avatar]
+TABLE "rentx_litespeed_cssjs"___________________________[ROWS:     264] [EXTRACT|REPLACE] [INST NAME: rentx_litespeed_cssjs]
+TABLE "rentx_litespeed_img_optm"________________________[ROWS:   26055] [EXTRACT|REPLACE] [INST NAME: rentx_litespeed_img_optm]
+TABLE "rentx_litespeed_img_optming"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_litespeed_img_optming]
+TABLE "rentx_options"___________________________________[ROWS:     729] [EXTRACT|REPLACE] [INST NAME: rentx_options]
+TABLE "rentx_pmr_status"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_pmr_status]
+TABLE "rentx_postmeta"__________________________________[ROWS:  155065] [EXTRACT|REPLACE] [INST NAME: rentx_postmeta]
+TABLE "rentx_posts"_____________________________________[ROWS:   10455] [EXTRACT|REPLACE] [INST NAME: rentx_posts]
+TABLE "rentx_term_relationships"________________________[ROWS:    7932] [EXTRACT|REPLACE] [INST NAME: rentx_term_relationships]
+TABLE "rentx_term_taxonomy"_____________________________[ROWS:     789] [EXTRACT|REPLACE] [INST NAME: rentx_term_taxonomy]
+TABLE "rentx_termmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: rentx_termmeta]
+TABLE "rentx_terms"_____________________________________[ROWS:     789] [EXTRACT|REPLACE] [INST NAME: rentx_terms]
+TABLE "rentx_usermeta"__________________________________[ROWS:     287] [EXTRACT|REPLACE] [INST NAME: rentx_usermeta]
+TABLE "rentx_users"_____________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: rentx_users]
+TABLE "rentx_wf301_404_logs"____________________________[ROWS:      82] [EXTRACT|REPLACE] [INST NAME: rentx_wf301_404_logs]
+TABLE "rentx_wf301_redirect_logs"_______________________[ROWS:     378] [EXTRACT|REPLACE] [INST NAME: rentx_wf301_redirect_logs]
+TABLE "rentx_wf301_redirect_rules"______________________[ROWS:     605] [EXTRACT|REPLACE] [INST NAME: rentx_wf301_redirect_rules]
+TABLE "rentx_yoast_indexable"___________________________[ROWS:    9531] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_indexable]
+TABLE "rentx_yoast_indexable_hierarchy"_________________[ROWS:    6772] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_indexable_hierarchy]
+TABLE "rentx_yoast_migrations"__________________________[ROWS:      21] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_migrations]
+TABLE "rentx_yoast_primary_term"________________________[ROWS:     409] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_primary_term]
+TABLE "rentx_yoast_seo_links"___________________________[ROWS:   18615] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_seo_links]
+TABLE "rentx_yoast_seo_meta"____________________________[ROWS:    5235] [EXTRACT|REPLACE] [INST NAME: rentx_yoast_seo_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.29 -- Build Server: 5.7.34
+FILE SIZE:	dup-database__[HASH].sql (86MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 11358279
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 14885641
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 17642040
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 22044805
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 26251328
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 29539245
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 44546811
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 71556805
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+CLEAN PACKAGES
+CLEAN EXTRA
+/t - SKIP DROP VIEWS
+/t - SKIP DROP PROCS
+/t - SKIP DROP FUNCS
+CLEAN OPTIONS [rentx_options]Array
+(
+    [0] => `option_name` LIKE "\_transient%"
+    [1] => `option_name` LIKE "\_site\_transient%"
+    [2] => `option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+)
+
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	770
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "rentx_ac_segments"_______________________________[ROWS:     0]
+TABLE "rentx_admin_columns"_____________________________[ROWS:     8]
+TABLE "rentx_aiowps_events"_____________________________[ROWS:     0]
+TABLE "rentx_aiowps_failed_logins"______________________[ROWS:    96]
+TABLE "rentx_aiowps_global_meta"________________________[ROWS:     0]
+TABLE "rentx_aiowps_login_activity"_____________________[ROWS:   170]
+TABLE "rentx_aiowps_login_lockdown"_____________________[ROWS:     6]
+TABLE "rentx_aiowps_permanent_block"____________________[ROWS:     0]
+TABLE "rentx_ajaxsearchpro"_____________________________[ROWS:     1]
+TABLE "rentx_ajaxsearchpro_priorities"__________________[ROWS:     0]
+TABLE "rentx_ajaxsearchpro_statistics"__________________[ROWS:   752]
+TABLE "rentx_asp_index"_________________________________[ROWS:     0]
+TABLE "rentx_asp_synonyms"______________________________[ROWS:     0]
+TABLE "rentx_commentmeta"_______________________________[ROWS:     0]
+TABLE "rentx_comments"__________________________________[ROWS:     0]
+TABLE "rentx_css_js_manager"____________________________[ROWS:     0]
+TABLE "rentx_daim_anchors"______________________________[ROWS:  6103]
+TABLE "rentx_daim_archive"______________________________[ROWS:  1000]
+TABLE "rentx_daim_autolinks"____________________________[ROWS:  2939]
+TABLE "rentx_daim_category"_____________________________[ROWS:    27]
+TABLE "rentx_daim_hits"_________________________________[ROWS:   928]
+TABLE "rentx_daim_juice"________________________________[ROWS:   682]
+TABLE "rentx_duplicator_pro_entities"___________________[ROWS:     5]
+TABLE "rentx_duplicator_pro_packages"___________________[ROWS:     0]
+TABLE "rentx_eum_logs"__________________________________[ROWS:   172]
+TABLE "rentx_links"_____________________________________[ROWS:     0]
+TABLE "rentx_litespeed_avatar"__________________________[ROWS:    28]
+TABLE "rentx_litespeed_cssjs"___________________________[ROWS:   264]
+TABLE "rentx_litespeed_img_optm"________________________[ROWS: 26055]
+TABLE "rentx_litespeed_img_optming"_____________________[ROWS:     0]
+TABLE "rentx_options"___________________________________[ROWS:   691]
+TABLE "rentx_pmr_status"________________________________[ROWS:     0]
+TABLE "rentx_postmeta"__________________________________[ROWS:155065]
+TABLE "rentx_posts"_____________________________________[ROWS: 10455]
+TABLE "rentx_term_relationships"________________________[ROWS:  7932]
+TABLE "rentx_term_taxonomy"_____________________________[ROWS:   789]
+TABLE "rentx_termmeta"__________________________________[ROWS:     0]
+TABLE "rentx_terms"_____________________________________[ROWS:   789]
+TABLE "rentx_usermeta"__________________________________[ROWS:   287]
+TABLE "rentx_users"_____________________________________[ROWS:     7]
+TABLE "rentx_wf301_404_logs"____________________________[ROWS:    82]
+TABLE "rentx_wf301_redirect_logs"_______________________[ROWS:   378]
+TABLE "rentx_wf301_redirect_rules"______________________[ROWS:   605]
+TABLE "rentx_yoast_indexable"___________________________[ROWS:  9531]
+TABLE "rentx_yoast_indexable_hierarchy"_________________[ROWS:  6772]
+TABLE "rentx_yoast_migrations"__________________________[ROWS:    21]
+TABLE "rentx_yoast_primary_term"________________________[ROWS:   409]
+TABLE "rentx_yoast_seo_links"___________________________[ROWS: 18615]
+TABLE "rentx_yoast_seo_meta"____________________________[ROWS:  5235]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    39]
+
+INSERT DATA RUNTIME: 45.9550 sec.
+STEP-2 COMPLETE @ 10:48:38 - RUNTIME: 45.9550 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+====================================
+ACTION INSTALL TYPE single site START
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:48:38
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+url_old_______________: "https://boattheglobe.com"
+url_new_______________: "https://boattheglobe.ca"
+siteurl_______________: "https://boattheglobe.ca"
+path_new______________: "/home/boattheg/public_html"
+path_old______________: "/home/b579188/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = true], [inWpConfig = 1]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = /home/boattheg/public_html/wp-content/temp], [inWpConfig = 1]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "rentx_ac_segments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_admin_columns"_____________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_admin_columns][0]
+
+EVALUATE TABLE: "rentx_aiowps_events"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_aiowps_failed_logins"______________________[ROWS:    96][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_aiowps_failed_logins][0]
+
+EVALUATE TABLE: "rentx_aiowps_global_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_aiowps_login_activity"_____________________[ROWS:   170][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_aiowps_login_activity][0]
+
+EVALUATE TABLE: "rentx_aiowps_login_lockdown"_____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_aiowps_login_lockdown][0]
+
+EVALUATE TABLE: "rentx_aiowps_permanent_block"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_ajaxsearchpro"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_ajaxsearchpro][0]
+
+EVALUATE TABLE: "rentx_ajaxsearchpro_priorities"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_ajaxsearchpro_statistics"__________________[ROWS:   752][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_ajaxsearchpro_statistics][0]
+
+EVALUATE TABLE: "rentx_asp_index"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_asp_synonyms"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_commentmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_comments"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_css_js_manager"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_daim_anchors"______________________________[ROWS:  6103][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][3]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][4]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][5]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_anchors][6]
+
+EVALUATE TABLE: "rentx_daim_archive"______________________________[ROWS:  1000][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_archive][0]
+
+EVALUATE TABLE: "rentx_daim_autolinks"____________________________[ROWS:  2939][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_autolinks][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_autolinks][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_autolinks][2]
+
+EVALUATE TABLE: "rentx_daim_category"_____________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_category][0]
+
+EVALUATE TABLE: "rentx_daim_hits"_________________________________[ROWS:   928][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_hits][0]
+
+EVALUATE TABLE: "rentx_daim_juice"________________________________[ROWS:   682][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_daim_juice][0]
+
+EVALUATE TABLE: "rentx_duplicator_pro_entities"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "rentx_duplicator_pro_packages"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_eum_logs"__________________________________[ROWS:   172][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_eum_logs][0]
+
+EVALUATE TABLE: "rentx_links"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_litespeed_avatar"__________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_avatar][0]
+
+EVALUATE TABLE: "rentx_litespeed_cssjs"___________________________[ROWS:   264][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_cssjs][0]
+
+EVALUATE TABLE: "rentx_litespeed_img_optm"________________________[ROWS: 26055][PG:  27][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][3]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][4]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][5]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][6]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][7]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][8]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][9]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][10]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][11]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][12]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][13]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][14]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][15]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][16]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][17]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][18]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][19]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][20]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][21]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][22]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][23]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][24]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][25]
+	CHUNK ACTION: CURRENT [search_replace][rentx_litespeed_img_optm][26]
+
+EVALUATE TABLE: "rentx_litespeed_img_optming"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_options"___________________________________[ROWS:   691][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_options][0]
+
+EVALUATE TABLE: "rentx_pmr_status"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_postmeta"__________________________________[ROWS:155065][PG: 156][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][11]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][12]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][13]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][14]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][15]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][16]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][17]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][18]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][19]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][20]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][21]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][22]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][23]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][24]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][25]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][26]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][27]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][28]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][29]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][30]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][31]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][32]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][33]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][34]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][35]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][36]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][37]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][38]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][39]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][40]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][41]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][42]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][43]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][44]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][45]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][46]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][47]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][48]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][49]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][50]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][51]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][52]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][53]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][54]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][55]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][56]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][57]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][58]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][59]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][60]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][61]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][62]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][63]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][64]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][65]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][66]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][67]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][68]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][69]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][70]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][71]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][72]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][73]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][74]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][75]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][76]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][77]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][78]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][79]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][80]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][81]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][82]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][83]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][84]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][85]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][86]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][87]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][88]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][89]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][90]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][91]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][92]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][93]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][94]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][95]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][96]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][97]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][98]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][99]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][100]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][101]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][102]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][103]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][104]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][105]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][106]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][107]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][108]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][109]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][110]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][111]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][112]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][113]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][114]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][115]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][116]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][117]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][118]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][119]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][120]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][121]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][122]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][123]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][124]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][125]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][126]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][127]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][128]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][129]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][130]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][131]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][132]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][133]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][134]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][135]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][136]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][137]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][138]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][139]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][140]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][141]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][142]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][143]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][144]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][145]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][146]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][147]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][148]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][149]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][150]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][151]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][152]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][153]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][154]
+	CHUNK ACTION: CURRENT [search_replace][rentx_postmeta][155]
+
+EVALUATE TABLE: "rentx_posts"_____________________________________[ROWS: 10455][PG:  11][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_posts][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_posts][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_posts][3]
+	
+STEP-3 CHUNK STOP @ 10:48:43 - RUNTIME: 5.0787 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][4]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][5]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][6]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][7]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][8]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][9]
+CHUNK ACTION: CURRENT [search_replace][rentx_posts][10]
+
+EVALUATE TABLE: "rentx_term_relationships"________________________[ROWS:  7932][PG:   8][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_term_taxonomy"_____________________________[ROWS:   789][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_term_taxonomy][0]
+
+EVALUATE TABLE: "rentx_termmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_terms"_____________________________________[ROWS:   789][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_terms][0]
+
+EVALUATE TABLE: "rentx_usermeta"__________________________________[ROWS:   287][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_usermeta][0]
+
+EVALUATE TABLE: "rentx_users"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_users][0]
+
+EVALUATE TABLE: "rentx_wf301_404_logs"____________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_wf301_404_logs][0]
+
+EVALUATE TABLE: "rentx_wf301_redirect_logs"_______________________[ROWS:   378][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_wf301_redirect_logs][0]
+
+EVALUATE TABLE: "rentx_wf301_redirect_rules"______________________[ROWS:   605][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_wf301_redirect_rules][0]
+
+EVALUATE TABLE: "rentx_yoast_indexable"___________________________[ROWS:  9531][PG:  10][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][3]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][4]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][5]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][6]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][7]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][8]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_indexable][9]
+
+EVALUATE TABLE: "rentx_yoast_indexable_hierarchy"_________________[ROWS:  6772][PG:   7][SCAN:no columns  ]
+
+EVALUATE TABLE: "rentx_yoast_migrations"__________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_migrations][0]
+
+EVALUATE TABLE: "rentx_yoast_primary_term"________________________[ROWS:   409][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_primary_term][0]
+
+EVALUATE TABLE: "rentx_yoast_seo_links"___________________________[ROWS: 18615][PG:  19][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/b579188/public_html" =======================> "/home/boattheg/public_html"
+	SEARCH[urlnd]  2:"https://boattheglobe.com" ========================> "https://boattheglobe.ca"
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][0]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][1]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][2]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][3]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][4]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][5]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][6]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][7]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][8]
+	CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][9]
+	
+STEP-3 CHUNK STOP @ 10:48:48 - RUNTIME: 5.0998 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][10]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][11]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][12]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][13]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][14]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][15]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][16]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][17]
+CHUNK ACTION: CURRENT [search_replace][rentx_yoast_seo_links][18]
+
+EVALUATE TABLE: "rentx_yoast_seo_meta"____________________________[ROWS:  5235][PG:   6][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:49 	|	 Rows:236960 	|	 Cells:1871864 
+UPDATED:	Tables:15 	|	 Rows:50034 	|	 Cells:76257 
+ERRORS:		0 
+RUNTIME:	11.403900 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/boattheg/public_html/wp-config.php
+New htaccess file created:/home/boattheg/public_html/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""boattheg_dev01""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE true
+	WP CONFIG UPDATE WP_DEBUG false
+	WP CONFIG UPDATE WP_TEMP_DIR "/home/boattheg/public_html/wp-content/temp"
+	WP CONFIG UPDATE WP_AUTO_UPDATE_CORE true
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/boattheg/public_html"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:48:49 - RUNTIME: 1.0945 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] Can't extract files
+	LONG MSG: FILE: wp-content/plugins/phoenix-media-rename/wpml-screenshot-02.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:8417028FILE: wp-content/uploads/2020/08/coast-of-lake-como-1536x402.jpg.webpMessage: Invalid glob header marker found &lt;F&gt;. location:118889391FILE: wp-content/uploads/2020/02/beaches-in-mediterranean-1536x402.bk.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:613567114FILE: wp-content/uploads/2020/02/best-place-to-stay-in-chioggia-768x201.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:970075568FILE: wp-content/uploads/2020/10/marina-in-porto-vecchio.bk.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:1179550701FILE: wp-content/uploads/2020/10/sailing-in-bormes-les-mimosas-150x150.bk.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:1262278170FILE: wp-content/uploads/2019/12/boat-rental-marina-di-olbia.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:2080186345FILE: wp-content/uploads/2018/03/vacations-in-san-remo-768x576.bk.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:2513012674FILE: wp-content/uploads/2018/09/weather-in-untergohren.jpgMessage: Invalid glob header marker found &lt;F&gt;. location:2746108784
+
+====================================
+LOG-TIME[/home/boattheg/public_html/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.01389]  MESSAGE:END RENDER PAGE

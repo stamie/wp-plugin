@@ -1,0 +1,1 @@
+<?php echo get_post_meta(get_the_ID(), 'a_szlogen_boat_type', true); ?>

@@ -1,0 +1,16 @@
+{
+    "name": "roberts91/wp-async-css",
+    "type": "wordpress-plugin",
+    "description": "This plugin will hook onto the WordPress style handling system and load the selected stylesheets asynchronous.",
+    "authors": [
+        {
+            "name": "Robert Sæther",
+            "email": "robert.sather@outlook.com"
+        }
+    ],
+    "extra": {
+	    "branch-alias": {
+	        "stable": "1.1"
+	    }
+	}
+}

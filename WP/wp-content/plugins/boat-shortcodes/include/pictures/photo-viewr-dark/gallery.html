@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>jQuery Dark Slideshow</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fullscreen-container hidden">
+        <div class='fullscreen-div'>
+            <img class="remove-fullscreen" src="icons/remove_icon.webp" width="60" />
+        </div>
+    </div>
+
+    <div id="gallery">
+
+        <div id="slide">
+            <div class="counter"></div>
+            <a class="prev">❮</a>
+            <a class="next">❯</a>
+            <img class="toggleDiapo" src="icons/pause_diapo.png" width="40" />
+            <img class="fullscreen" src="icons/fullscreen.png" width="30" />
+            <img id='preview' />
+        </div>
+
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div id="thumbnails">
+            <div class="wrapper">
+                <img src="https://source.unsplash.com/mIPNylNW2Ks/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/AdMpZw3omoY/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/v4cdOnMv-78/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/U2EgiLE0ODs/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/5NLCaz2wJXE/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/mineSpp-Wco/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/DDZFfp7lMkQ/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/lq-NG2MI5ow/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/9DpriXAEgXY/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/x4-zH8vXX-0/1280x960" class="thumbnail" alt="jQueryScript">
+                <img src="https://source.unsplash.com/KSjlv6TIZGg/1280x960" class="thumbnail" alt="jQueryScript">
+            </div>
+        </div>
+</div>
+        <script src="js/slider.js"></script>
+        <script>
+
+            // $('.wrapper').addImage('wall1.jpeg', 'TEST');
+            // $('.wrapper').addImage('wall2.jpeg', 'TEST');
+            // $('.wrapper').addImage('wall3.jpeg', 'TEST');
+
+        </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

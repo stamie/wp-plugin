@@ -1,0 +1,1 @@
+<span class="description"><?php echo sanitize_text_field($desc); ?></span>

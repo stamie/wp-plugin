@@ -1,0 +1,71 @@
+<?php
+//XML csat kikötők város szinkron
+require __DIR__.'/../../../../wp-config.php';
+
+global $wpdb;
+
+$city_id = 0;
+$port_id = 0;
+$xml_id = 0;
+$wp_id = 0;
+
+if (isset($_POST['city']))
+    $city_id = $_POST['city'];
+
+
+
+if (isset($_POST['port']))
+    $port_id = $_POST['port'];
+
+if (isset($_POST['xml']))
+    $xml_id = $_POST['xml'];
+
+if (isset($_POST['wp']))
+    $wp_id = $_POST['wp'];
+
+
+if ($city_id != 0 &&
+    $port_id != 0 &&
+    $xml_id != 0 &&
+    $wp_id != 0
+){
+    $query = "SELECT id from cities where id = $city_id";
+    $rows = $wpdb->get_results($query, OBJECT);
+    if (is_array($rows) && count($rows)>0){
+        $query = "SELECT xml_lat, xml_long from port where xml_id = $xml_id and xml_json_id = $port_id";
+        $rows = $wpdb->get_results($query, OBJECT);
+        if (!is_array($rows) || count($rows) == 0){
+            echo __("Nincsen ilyen port! Kérlek, frissítsd az oldalt!", "boat-shortcodes");;
+        } else {
+            $rows = $wpdb->get_results("SELECT wp_port_id from ports_in_cities
+                                                where xml_id         = $xml_id and
+                                                    xml_json_port_id = $port_id and
+                                                    wp_prefix_id     = $wp_id", OBJECT);
+                    $wp_port = array();
+                    if (is_array($rows) && count($rows)>0 && isset($rows[0]->wp_port_id)){
+                        $wp_port = array('wp_port_id' => $rows[0]->wp_port_id);
+                    }
+
+                    $wpdb->delete('ports_in_cities', array(
+                                        'xml_id' => $xml_id,
+                                        'xml_json_port_id' => $port_id,
+                                        'wp_prefix_id' => $wp_id,
+                                    ));
+                    $wpdb->insert('ports_in_cities', array(
+                                    'xml_id' => $xml_id,
+                                    'xml_json_port_id' => $port_id,
+                                    'wp_prefix_id' => $wp_id,
+                                    'cities_id' => $city_id,
+
+                                )+$wp_port);
+                    echo 1;   
+        }
+    } else {
+        echo __("Kérlek, frissítsd a weboldalt! Ha akkor sem jó, akkor szólj a rendszergazdának!", "boat-shortcodes");
+    }
+
+} else {
+    echo __("Kérlek, frissítsd a weboldalt! Ha akkor sem jó, akkor szólj a rendszergazdának!", "boat-shortcodes");
+}
+
+?>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://boattheglobe.ca/wp-content/plugins/udinra-all-image-sitemap/xsl/xml-index-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://boattheglobe.ca/sitemap-post-1.xml</loc>
+		<lastmod>2020-03-11T09:49:59+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://boattheglobe.ca/sitemap-page-1.xml</loc>
+		<lastmod>2020-03-11T09:49:59+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://boattheglobe.ca/sitemap-destination-1.xml</loc>
+		<lastmod>2020-03-11T09:49:59+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://boattheglobe.ca/sitemap-port-1.xml</loc>
+		<lastmod>2020-03-11T09:49:59+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://boattheglobe.com/wp-content/plugins/udinra-all-image-sitemap/xsl/xml-sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+		<loc>https://boattheglobe.com/find-yachts</loc>
+		<lastmod>2020-03-04T15:12:56+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/boats-search-results</loc>
+		<lastmod>2020-03-04T14:36:23+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/thank-subscribing</loc>
+		<lastmod>2020-02-14T07:35:55+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/thank-you-for-contacting</loc>
+		<lastmod>2020-02-14T07:34:50+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/list-early-bird</loc>
+		<lastmod>2020-02-14T07:28:55+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/last-minute-list</loc>
+		<lastmod>2020-02-14T07:27:58+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/early-bird-list</loc>
+		<lastmod>2020-02-14T07:26:09+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/</loc>
+		<lastmod>2020-03-06T14:19:16+00:00</lastmod>
+		<priority>0.8</priority>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-bareboat.jpg</image:loc>
+			<image:caption><![CDATA[Bareboat charter]]></image:caption>
+			<image:title><![CDATA[Bareboat charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-cabin.jpg</image:loc>
+			<image:caption><![CDATA[Cabin yacht charter]]></image:caption>
+			<image:title><![CDATA[Cabin yacht charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-catamaran.jpg</image:loc>
+			<image:caption><![CDATA[Catamaran charter]]></image:caption>
+			<image:title><![CDATA[Catamaran charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-crewed.jpg</image:loc>
+			<image:caption><![CDATA[Crewed yacht charter]]></image:caption>
+			<image:title><![CDATA[Crewed yacht charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-flotilla.jpg</image:loc>
+			<image:caption><![CDATA[Flotilla sailing]]></image:caption>
+			<image:title><![CDATA[Flotilla sailing]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-gulet.jpg</image:loc>
+			<image:caption><![CDATA[Gulet charter]]></image:caption>
+			<image:title><![CDATA[Gulet charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-luxury.jpg</image:loc>
+			<image:caption><![CDATA[Luxury yacht charter]]></image:caption>
+			<image:title><![CDATA[Luxury yacht charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-motor.jpg</image:loc>
+			<image:caption><![CDATA[Motor yacht charter]]></image:caption>
+			<image:title><![CDATA[Motor yacht charter]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://boattheglobe.com/wp-content/uploads/2019/02/w-sail.jpg</image:loc>
+			<image:caption><![CDATA[Sailboat charter]]></image:caption>
+			<image:title><![CDATA[Sailboat charter]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/contact-us</loc>
+		<lastmod>2020-02-14T08:13:48+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/yacht-charter-guide</loc>
+		<lastmod>2020-03-04T13:20:09+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/find-the-perfect-boat</loc>
+		<lastmod>2020-03-04T15:11:28+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://boattheglobe.com/privacy-policy</loc>
+		<lastmod>2020-03-10T14:59:03+00:00</lastmod>
+		<priority>0.8</priority>
+	</url>
+</urlset>

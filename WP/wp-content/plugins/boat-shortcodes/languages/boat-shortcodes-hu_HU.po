@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Emese Stampel <estampel@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# "X-Poedit-SearchPath-0: languages\n"
+# WP\wp-content\plugins\boat-shortcodes\include\boatslist_felso.php
+msgid "Please note that the majority of charter companies prefer Saturday to Saturday rentals"
+msgstr "Ajánlott kezdési nap, a szombat"
+
+msgid "on day"
+msgstr "adott napon"
+
+msgid "in week"
+msgstr "adott héten"
+
+msgid "one week"
+msgstr "egy hét"
+
+msgid "two weeks"
+msgstr "két hét"
+
+msgid "in month"
+msgstr "adott hónapban"
+
+msgid "Please select"
+msgstr "Válassz"
+
+msgid "You haven't got any reservations"
+msgstr "Nincsen foglalásod"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Boat"
+msgstr "Hajó"
+
+msgid "Period"
+msgstr "Időszak"
+
+msgid "Status"
+msgstr "Státusz"
+
+msgid "Price"
+msgstr "Ár"
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "english"
+msgstr "angol"
+
+msgid "Haven't got Title"
+msgstr "Nincsen megadva cím"
+
+msgid "The image cannot be displayed"
+msgstr "A kép nem jeleníthető meg"
+
+msgid "Beds: "
+msgstr "Ágyak"
+
+msgid "Cabins: "
+msgstr "Kabinok"
+
+msgid "Persons"
+msgstr "Utasok száma"
+
+msgid "Draft: "
+msgstr "Merülés"
+
+msgid "Size: "
+msgstr "Méret"
+
+msgid "Engines: "
+msgstr "Motor"
+
+msgid "No data available"
+msgstr "Nincsen elérhető adat"
+
+msgid "Check in time"
+msgstr "Bejelentkezés"
+
+msgid "Check out time"
+msgstr "Kijelentkezés"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Country"
+msgstr "Ország"
+
+msgid "Skipper licence required"
+msgstr "Hajóvezetői engedély szükséges"
+
+msgid "Max discount"
+msgstr "Maximális kedvezmény"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Brand"
+msgstr "Hajó gyártója"
+
+msgid "Boat type"
+msgstr "Szolgáltatástípus"
+
+msgid "Hull color"
+msgstr "Hajótest színe"
+
+msgid "Sail year of refit"
+msgstr "Vitorla felújításának éve"
+
+msgid "Genoa year of refit"
+msgstr "Genoa felújításának éve"
+
+msgid "Steering type"
+msgstr "Kormány típusa"
+
+msgid "Number of rudder blades"
+msgstr "Kormánylapát száma"
+
+msgid "Engine"
+msgstr "Motor"
+
+msgid "Power"
+msgstr "Teljesítmény"
+
+msgid "Engine manufacturer"
+msgstr "Motor gyártója"
+
+msgid "Layout"
+msgstr "Megjelenés"
+
+msgid "Day maximum passengers"
+msgstr "Maximális utasszám"
+
+msgid "Berts"
+msgstr "Férőhely"
+
+msgid "Cabins"
+msgstr "Kabinok"
+
+msgid "Passenger cabins"
+msgstr "Utas kabinok"
+
+msgid "Cabins crew"
+msgstr "Személyzeti kabin"
+
+msgid "Toilets"
+msgstr "WC"
+
+msgid "Passenger toilets"
+msgstr "Utas wc"
+
+msgid "Toilets crew"
+msgstr "Személyzeti wc"
+
+msgid "Size"
+msgstr "Méret"
+
+msgid "Length Overall"
+msgstr "Hajóhossz"
+
+msgid "Beam"
+msgstr "Orrsugár"
+
+msgid "Draft"
+msgstr "Merülés"
+
+msgid "Water capacity"
+msgstr "Víz tartály kapacitása"
+
+msgid "Fuel capacity"
+msgstr "Üzemanyag tartály kapacitása"
+
+msgid "Sails"
+msgstr "Vitorlák"
+
+msgid "Main sail"
+msgstr "Fővitorla"
+
+msgid "Genoa sail"
+msgstr "Genoa"
+
+msgid "Spinnaker"
+msgstr "Spinakker"
+
+msgid "Gennaker"
+msgstr "Gennaker"
+
+##
+msgid "Period/Price"
+msgstr "Időtartam/Ár"
+
+msgid "1 Week"
+msgstr "1 hét"
+
+msgid "Type"
+msgstr "Típus"
+
+msgid "Period/Discounts"
+msgstr "Időtartam/Kedvezmény"
+
+msgid "Discount name"
+msgstr "Kedvezmény neve"
+
+msgid "Amount"
+msgstr "Összeg"
+
+## WP\wp-content\plugins\boat-shortcodes\include\charter_prices.php
+msgid "Beeding"
+msgstr "Ágynemű"
+
+msgid "Included in the Price"
+msgstr "Az ár tartalmazza"
+
+msgid "Welcome KIT"
+msgstr "Üdvözlő csomag"
+
+msgid "WIFI"
+msgstr "WIFI"
+
+msgid "Obligatory"
+msgstr "Kötelező"
+
+msgid "Every locations"
+msgstr "Minden helyszín"
+
+msgid "Optional"
+msgstr "Választható"
+
+msgid "Same locations"
+msgstr "Ugyan az a helyszín"
+
+msgid "Options & Services"
+msgstr "Választható Szolgáltatások"
+
+## WP\wp-content\plugins\boat-shortcodes\include\boatsearch.php
+msgid "on week"
+msgstr "adott héten"
+
+msgid "All Model"
+msgstr "Minden modell"
+
+msgid "Yes, I need a skipper"
+msgstr "Szükségem van kapitányra"
+
+msgid "email send error"
+msgstr "e-mai küldési hiba"
+
+msgid "otpion error"
+msgstr "Hiba az opciózásnál"
+
+## WP\wp-content\plugins\boat-shortcodes\include\boatslist.php
+msgid "boats"
+msgstr "hajók"
+
+msgid "Rental Total"
+msgstr "Bérlés összesen"
+
+msgid "Deposit"
+msgstr "Letét"
+
+msgid "Charter Prices"
+msgstr "Hajóbérlés ára"
+
+msgid "Discounts"
+msgstr "Kedvezmények"
+
+msgid "Show only discounted yachts"
+msgstr "Csak az akciós hajókat mutasd"
+
+msgid "Ignore options"
+msgstr "Az opciózott hajókat hagyd figyelmen kívül"
+
+msgid "Fisherman"
+msgstr "Horgász"
+
+msgid "Gulet"
+msgstr "Gulet"
+
+msgid "Jet Ski"
+msgstr "Jet Ski"
+
+msgid "Luxury catamaran"
+msgstr "Luxus katamarán"
+
+msgid "Luxury motor yacht"
+msgstr "Luxus motot yacht"
+
+msgid "Luxury sailing yacht"
+msgstr "Luxus vitorlás yacht"
+
+msgid "Mini Cruiser"
+msgstr "Mini Cruiser"
+
+msgid "Motor boat"
+msgstr "Motorcsónak"
+
+msgid "Motor yacht"
+msgstr "Motoros yacht"
+
+msgid "Motorsailer"
+msgstr "Motoros vitorlás"
+
+msgid "Power catamaran"
+msgstr "Power katamarán"
+
+msgid "Rubber boat (R.I.B.)"
+msgstr "Gumitestű hajó"
+
+msgid "Sailing yacht"
+msgstr "Vitorlás"
+
+msgid "Speed boat"
+msgstr "Speed boat"
+
+msgid "Trimaran"
+msgstr "Trimaran"
+
+msgid "Wooden yacht"
+msgstr "Fatestű hajó"
+
+msgid "Catamaran"
+msgstr "Katamarán"
+
+msgid "Floating villa"
+msgstr "Úszó villa"
+
+msgid "All inclusive"
+msgstr "All inclusive"
+
+msgid "Powered"
+msgstr "Powered"
+
+msgid "Berth"
+msgstr "Berth"
+
+msgid "Flotilla"
+msgstr "Flotilla"
+
+msgid "Cabin"
+msgstr "Kabin"
+
+msgid "Crewed"
+msgstr "Crewed"
+
+msgid "Bareboat"
+msgstr "Hajóbérlés "
+
+msgid "All"
+msgstr "Minden"
+
+msgid "All Models"
+msgstr "Minden modell"
+
+msgid "View details"
+msgstr "Mutasd az adatokat"
+
+msgid "Price: low to high"
+msgstr "Ár alacsony-magas"
+
+msgid "Price: high to low"
+msgstr "Ár magas-alacsony"
+
+msgid "Length: ascending"
+msgstr "Hossz: növekvő"
+
+msgid "Length: descending"
+msgstr "Hossz: csökkenő"
+
+msgid "Berts: ascending"
+msgstr "Ágyak: növekvő"
+
+msgid "Berts: descending"
+msgstr "Ágyak: csökkenő"
+
+msgid "Capacity: ascending"
+msgstr "Befogadóképesség: növekvő"
+
+msgid "Capacity: descending"
+msgstr "Befogadóképesség: csökkenő"
+
+msgid "Number of cabins: ascending"
+msgstr "Kabinok száma: növekvő"
+
+msgid "Number of cabins: descending"
+msgstr "Kabinok száma: csökkenő"
+
+msgid "Yacht builder year: ascending"
+msgstr "Építés éve: növekvő"
+
+msgid "Yacht builder year: descending"
+msgstr "Éptés éve: csökkenő"
+
+msgid "to"
+msgstr "ig"
+
+msgid "next"
+msgstr "következő"
+
+msgid "Option"
+msgstr "Opciót helyezek el"
+
+msgid "Berths cabin"
+msgstr "Férőhely: kabin"
+
+msgid "Berths salon"
+msgstr "Férőhely: szalon"
+
+msgid "Berths crew"
+msgstr "Férőhely: személyzet"
+
+msgid "Base"
+msgstr "Bázis"
+
+msgid "Kind"
+msgstr "Típus"
+
+msgid "Navigation"
+msgstr "Navigáció"
+
+msgid "Safety"
+msgstr "Biztosnág"
+
+msgid "Yacht electrics"
+msgstr "Yacht elektronika"
+
+msgid "Deck"
+msgstr "Fedélzet"
+
+msgid "Galley"
+msgstr "Galéria"
+
+msgid "Interior"
+msgstr "Belső"
+
+msgid "Entertainment"
+msgstr "Szórakozás"
+
+msgid "Steering Wheel"
+msgstr "Kormány"
+
+msgid "Tiller steereing"
+msgstr "Kormányvezérlés"
+
+msgid "2 Steering Wheels"
+msgstr "2 kormány"
+
+msgid "Joystick"
+msgstr "Joystick"
+
+msgid "classic/standard"
+msgstr "klasszikus/alapértelmezett"
+
+msgid "full batten"
+msgstr "full batten"
+
+msgid "furling/roll"
+msgstr "furling/roll"
+
+msgid "half batten"
+msgstr "half batten"
+
+msgid "jib"
+msgstr "orrvitorla"
+
+msgid "self tacking jib"
+msgstr "orrvitorla behúzó"
+
+msgid "Destinations"
+msgstr "Uticél"
+
+msgid "Change destination"
+msgstr "Uticél megváltoztatása"
+
+msgid "Date From"
+msgstr "Kezdődátum"
+
+msgid "Duration"
+msgstr "Időtartam"
+
+msgid "Distance"
+msgstr "Távolság"
+
+msgid "Types"
+msgstr "Típus"
+
+msgid "Is sale"
+msgstr "Is sale"
+
+msgid "Flexibility"
+msgstr "Rugalmasság"
+
+msgid "Berths"
+msgstr "Férőhelyek"
+
+msgid "Sevice Types"
+msgstr "Szolgáltatástípus"
+
+msgid "Length"
+msgstr "Hossz"
+
+msgid "Equipments"
+msgstr "Felszereltség"
+
+msgid "Prices & Discounts"
+msgstr "ÁRAK/KEDVEZMÉNYEK"
+
+msgid "Boat Property"
+msgstr "A HAJÓ TULAJDONSÁGAI"
+
+msgid "On the Map"
+msgstr "TÉRKÉPEN"
+
+msgid "send a request"
+msgstr "küldöm a kérést"
+
+msgid "Build year"
+msgstr "Gyártás éve"
+
+msgid "nights"
+msgstr "éjszaka"
+
+msgid " to "
+msgstr "-tól "
+
+msgid "We can keep the yacht for 3-5 days - no obligation"
+msgstr "3-5 napig tartjuk a hajót neked - kötelezettség nélkül"
+

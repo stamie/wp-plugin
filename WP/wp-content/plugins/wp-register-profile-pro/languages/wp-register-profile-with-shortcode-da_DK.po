@@ -1,0 +1,134 @@
+msgid "This is the user registration widget."
+msgstr "Dette er brugerregistrering widget."
+
+msgid "Username"
+msgstr "Brugernavn"
+
+msgid "User Email"
+msgstr "Bruger Email"
+
+msgid "Password"
+msgstr "adgangskode"
+
+msgid "Retype Password"
+msgstr "Gentag adgangskode"
+
+msgid "First Name"
+msgstr "Fornavn"
+
+msgid "Last Name"
+msgstr "efternavn"
+
+msgid "Display Name"
+msgstr "Vist navn"
+
+msgid "About User"
+msgstr "Om Bruger"
+
+msgid "Website"
+msgstr "websted"
+
+msgid "Register"
+msgstr "Tilmeld"
+
+msgid "Profile Image"
+msgstr "profilbillede"
+
+msgid "Supported files"
+msgstr "Underst&oslash;ttede filer"
+
+msgid "Registration Successfull"
+msgstr "Registrering lykkedes"
+
+msgid "Thankyou for registration"
+msgstr "Thankyou til registrering"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Sorry. Registration is not allowed in this site."
+msgstr "Undskyld. Tilmelding er ikke tilladt i denne hjemmeside ."
+
+msgid "Username already exists. Please use a different one!"
+msgstr "Findes allerede Brugernavn . Brug venligst en anden !"
+
+msgid "Email already exists. Please use a different one!"
+msgstr "Findes allerede Email. Brug venligst en anden !"
+
+msgid "The file type that you have uploaded is not a supported file."
+msgstr "Den filtype, du har uploadet er ikke en underst&oslash;ttet fil ."
+
+msgid "File type not supported."
+msgstr "Filtype underst&oslash;ttes ikke ."
+
+msgid "Profile data updated successfully."
+msgstr "Profil data opdateret."
+
+msgid "cannot be empty."
+msgstr "kan ikke være tom ."
+
+msgid "Password and Retype password donot match!"
+msgstr "Kodeord og Gentag kodeord donot matche!"
+
+msgid "You are successfully registered to the site. Please check your email for login details."
+msgstr "Du registrerede til webstedet. Tjek venligst din e-mail for login detaljer ."
+
+msgid "Please enter your email. The password reset link will be provided in your email."
+msgstr "Indtast venligst din e-mail. Til nulstilling af adgangskode link vil blive leveret i din e-mail ."
+
+msgid "Email failed to send for some unknown reason."
+msgstr "Email undladt at sende en eller anden ukendt &aring;rsag ."
+
+msgid "New Password successfully sent to your mail address."
+msgstr "Ny adgangskode sendt til din mail-adresse."
+
+msgid "Not a Valid Key."
+msgstr "Ikke en gyldig n&oslash;gle ."
+
+msgid "Invalid E-mail address!"
+msgstr "Ugyldig e- mail-adresse !"
+
+msgid "We have just sent you an email with Password reset instructions."
+msgstr "Vi har lige sendt dig en e-mail med nulstilling af adgangskode instruktioner."
+
+msgid "Update"
+msgstr "Opdatering"
+
+msgid "Login to update profile!"
+msgstr "Log p&aring; for at opdatere profil !"
+
+msgid "Your new password dont match with retype password!"
+msgstr "Din nye adgangskode Dont matche med Gentag adgangskode !"
+
+msgid "Your password updated successfully."
+msgstr "Din adgangskode opdateret."
+
+msgid "New Password"
+msgstr "Ny adgangskode"
+
+msgid "Sorry. data was found!"
+msgstr "Undskyld. data var fundet!"
+
+msgid "Check this to remove profile image."
+msgstr "Mark&eacute;r dette for at fjerne profilbillede ."
+
+msgid "This is a simple login form in the widget."
+msgstr "Dette er et simpelt login-formular i widget ."
+
+msgid "Remember Me"
+msgstr "Husk mig"
+
+msgid "Lost Password?"
+msgstr "Glemt adgangskode?"
+
+msgid "Login"
+msgstr "logon"
+
+msgid "Logout"
+msgstr "Log af"
+
+msgid "Error in login!"
+msgstr "Fejl i login !"
+
+msgid "Username or password is empty!"
+msgstr "Brugernavn eller kodeord er tom !"

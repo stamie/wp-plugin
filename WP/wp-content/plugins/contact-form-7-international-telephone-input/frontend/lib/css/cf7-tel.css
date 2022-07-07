@@ -1,0 +1,9 @@
+.wpcf7-not-valid-red {
+  color: red !important;
+  background: url("../img/cancel.png") 97% no-repeat !important;
+  background-size:  auto 70% !important;
+}
+.wpcf7-not-valid-blue {
+  background: url("../img/checked.png") 97% no-repeat !important;
+  background-size:  auto 70% !important;
+}

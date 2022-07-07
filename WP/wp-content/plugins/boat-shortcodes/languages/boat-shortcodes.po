@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Stampel Emese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+
+# "X-Poedit-SearchPath-0: languages\n"
+msgid "Syncronise"
+msgstr "Szinkronizáció"
+
+msgid "The synron isn't succesful"
+msgstr "Sikertelen Szinkronizáció"
+
+msgid "Syncronze name"
+msgstr "Szinkron neve"
+
+msgid "CountrySync"
+msgstr "Országok szinkronja"
+
+msgid "EquipmentCategorySync"
+msgstr "Berendezés Kategóriáinak Szinkronja"
+
+msgid "EquipmentSync"
+msgstr "Felszereltség szinkronja"
+
+msgid "YachtBuilderSync"
+msgstr "Yacht építők szinkronja"
+
+msgid "EngineBuilderSync"
+msgstr "Yachtmotor építők szinkronja"
+
+msgid "YachtCategorySync"
+msgstr "Yacht kategóriájinak szinkronja"
+
+msgid "YachtModelSync"
+msgstr "Yacht modellek szinkronja"
+
+msgid "YachtSync"
+msgstr "Yachtok szinkronja"
+
+msgid "DiscountItemSync"
+msgstr "Kedvezmények típusainka szinkronja"
+
+msgid "SeasonSync"
+msgstr "Szezonok szikronja"
+
+msgid "RegionSync"
+msgstr "Régiók szinkronja"
+
+msgid "BaseSync"
+msgstr "Bázisok szinkronja"
+
+msgid "PortSync"
+msgstr "Kikötők szinkronja"
+
+msgid "SteeringTypeSync"
+msgstr "Kormány típus szinkronja"
+
+msgid "SailTypeSync"
+msgstr "Vitorla típusainak szinkronja"
+
+msgid "ServiceSync"
+msgstr "Szolgáltatás szinkronja"
+
+msgid "CompanySync"
+msgstr "Cégek szinkronja"
+
+msgid "WPSync"
+msgstr "Wordpress kinézet szinkronja"
+
+msgid "Daily syncron"
+msgstr "Napi kis szinkon"
+
+msgid " to "
+msgstr "-tól "
