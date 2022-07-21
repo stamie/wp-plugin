@@ -8,8 +8,6 @@
 
 <h2 id="nav-tab-wrapper" class="wp-tab-bar nav-tab-wrapper">
 	<a href="#tabs-1" id="general-tab" class="nav-tab options">Összes Opciózás</a>
-	
-	<!--a href="#tabs-3" id="general-tab" class="nav-tab">Extrák</a-->
 </h2>
 
 <div class="wp-tab-panel shortcode" id="tabs-1">
