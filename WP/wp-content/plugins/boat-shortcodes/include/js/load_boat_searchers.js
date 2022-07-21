@@ -163,7 +163,6 @@ jQuery( function() {
             jQuery(".category-label").each(function(){
                 var label = jQuery(this).children("span").first().html();
                 var checkbox = jQuery(this).parents("span").first().children("input").first();
-console.log(label);
                 if (label == categories[key]){
                     jQuery(this).addClass("checked");
                     checkbox.prop('checked', true);

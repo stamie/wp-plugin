@@ -28,9 +28,9 @@ function boatListsForTheLocation($dest_id)
     global $wpdb;
     //$dest_id = isset($args['dest-id'])?$args['dest-id']:0;
     $query = "SELECT id ID from table_prefix where prefix like '{$wpdb->prefix}'";
-    $prefix = $wpdb->get_row($query, OBJECT);
-    $prefix = (isset($prefix) && isset($prefix->ID)) ? $prefix->ID : "";
-
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
+    
     $return = array();
     $query = "SELECT p2.ID ID, p2.post_title boat_title, c.name city, y.id yacht from {$wpdb->prefix}posts p2  inner join wp_yacht wpy on p2.ID = wpy.wp_id and wpy.wp_prefix = {$prefix} 
     inner join yacht y 
@@ -113,7 +113,7 @@ function boat_picture($args)
         $xmlId = $object->xml_id;
 
         if ($xmlId) {
-            $gallery = $discountsString . '<span class="main_picture true '.$object->id.'" attr-id="'.$object->id.'"></span>';
+            $gallery = $discountsString . '<span class="main_picture true ' . $object->id . '" attr-id="' . $object->id . '"></span>';
             //$gallery = file_get_contents(get_option('yii_url', '/') . 'wpsync/mainpictures?id=' . $id);
             //$gallery = $discountsString . (($gallery == "") ? '<img src="/wp-content/plugins/boat-shortcodes/include/pictures/boat-noimage.jpg" />' : $gallery);
             return $gallery;
@@ -185,10 +185,8 @@ function boatListsForTheLocationAndDistance($dest_id, $distance)
     global $wpdb;
     $return = array();
     $citiesIds = citiesListsForTheLocationAndDistance($dest_id, $distance);
-
-    $prefix = $wpdb->get_row("SELECT id from table_prefix where prefix like '{$wpdb->prefix}'");
-    $prefix = (isset($prefix) && isset($prefix->id)) ? $prefix->id : "";
-
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
     $boatList2Query = "SELECT y.id yacht from yacht y  inner join wp_yacht wpy on y.id = wpy.id and wpy.wp_prefix = {$prefix} 
                         inner join port p on p.xml_id=y.xml_id 
                                 and p.xml_json_id = y.location_id
@@ -238,10 +236,12 @@ function boat_page($args)
 {
     global $wpdb;
     $id = isset($args['id']) ? $args['id'] : 0;
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
 
     $return = '';
     if ($id > 0) {
-        $page = $wpdb->get_row("SELECT p.post_name wp_name from {$wpdb->prefix}posts p inner join wp_yacht y on y.wp_id = p.ID where y.id = $id", OBJECT);
+        $page = $wpdb->get_row("SELECT p.post_name wp_name from {$wpdb->prefix}posts p inner join wp_yacht y on y.wp_id = p.ID where y.wp_prefix={$prefix} and y.id = $id", OBJECT);
 
         if ($page && isset($page->wp_name)) {
             $return = 'class="boat_page_' . $id . '" href="/boat/' . $page->wp_name . '" ';
@@ -339,8 +339,8 @@ function boatListsForTheBoatType($dest_id, $boatList2)
 
     global $wpdb;
     $list = trim(implode(', ', $boatList2 + array(-1)), ', ');
-    $prefix = $wpdb->get_row("SELECT id from table_prefix where prefix like '{$wpdb->prefix}'");
-    $prefix = (isset($prefix) && isset($prefix->id)) ? $prefix->id : "";
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
 
     $queryDestination = "(SELECT yacht_category_id from destination_yacht_category where destination_id=$dest_id)";
     $query = "SELECT distinct y.id ID from yacht_datas1 y inner join wp_yacht wpy on y.id = wpy.id and wpy.wp_prefix = {$prefix}
@@ -470,12 +470,8 @@ function boatListsForTheBoatLength($dest_id, $boatList2)
 
     global $wpdb;
 
-    $prefix = $wpdb->get_row("SELECT id from table_prefix where prefix like '{$wpdb->prefix}'");
-    if ($prefix) {
-        $prefix = $prefix->id;
-    } else {
-        $prefix = "-1";
-    }
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
 
     $list = $boatList2;
     $listInString = trim(implode(', ', $boatList2), ', ');
@@ -525,8 +521,8 @@ function boatListsForTheBoatBerths($dest_id, $boatList2)
     $listInString = trim(implode(', ', $boatList2), ', ');
     $min = getMinBerths($dest_id);
     $max = getMaxBerths($dest_id);
-    $prefix = $wpdb->get_row("SELECT id from table_prefix where prefix like '{$wpdb->prefix}'");
-    $prefix = (isset($prefix) && isset($prefix->id)) ? $prefix->id : "";
+    global $wpdb_id;
+    $prefix = $wpdb_id->id;
 
     $query = "SELECT y.id ID from yacht_datas1 y inner join wp_yacht wpy on y.id = wpy.id and wpy.wp_prefix = {$prefix} where y.id in (-1, {$listInString})";
     $where = '';
@@ -551,7 +547,8 @@ function boatListsForTheBoatBerths($dest_id, $boatList2)
     }
     return $list;
 }
-function loadMainPictures(){
+function loadMainPictures()
+{
     $url = get_option('yii_url', '/') . 'wpsync/mainpictures';
     $script = '<script>
     var ids = [];
@@ -561,16 +558,14 @@ function loadMainPictures(){
       ids[index] = picture.attr("attr-id");
       index++;
     });
-    console.log(ids);
     $.ajax({
         type: "POST",
-        url: "'.$url.'",
+        url: "' . $url . '",
         // contentType: "application/json",
     	dataType: "json",
         data: {ids: ids},
         success: function (data) {
             lookupList = data;
-            console.log(lookupList); 
             ids.forEach((element) => {
                 var image = \'<img \' + data[element] + \'/>\';
                 jQuery(".main_picture.true." + element).html(image);
@@ -602,7 +597,6 @@ function boats_list($args)
     [boat-search dest_id="' . $dest_id . '"]
     [/col_inner]
     [col_inner span="9" span__sm="12"]
-    <div class="own-contact-form hidden">' . $result3 . '</div>
     <div class="loader"><div class="waitContainer"></div></div><div id="short_by">' . $result2 . '</div><div id="boats-lists">
     ';
     $d = strtotime("next Saturday");
@@ -625,11 +619,11 @@ function boats_list($args)
         $boatList2 = array();
     /**/
     $return .= '</div>' .
-        '[/col_inner]    
+        '<div class="own-contact-form">' . $result3 . '</div>[/col_inner]    
     [/row_inner]
   ';
     $script = loadMainPictures();
-    return do_shortcode($return).$script;
+    return do_shortcode($return) . $script;
 }
 add_shortcode('boats-list', 'boats_list');
 
@@ -708,7 +702,7 @@ function only_boats_list3($args)
     }
 
     $d = strtotime("next Saturday");
-    $date_from = isset($args['date_from'])?date('Y-m-d', strtotime($args['date_from'])):date('Y-m-d', $d);
+    $date_from = isset($args['date_from']) ? date('Y-m-d', strtotime($args['date_from'])) : date('Y-m-d', $d);
 
     $is_sale = 0;
     if (isset($args['is_sale'])) {
@@ -786,7 +780,7 @@ function listazas($args)
     $boatList2      = $boatList2->list;
 
     if (is_array($boatList2) && count($boatList2) > 0) {
-        foreach ($boatList2 as $boat) {
+        foreach ($boatList2 as $boat) { 
             $return .= boatDatas($boat->id, $result);
         }
     }
@@ -798,14 +792,12 @@ function listazas($args)
     $dests = trim($dests, ", ");
     $page_num = intval($args['page_num']) + 1;
     unset($args['page_num']);
-    $selectedCategories = isset($args["selectedCategories"]) && is_array($args["selectedCategories"]) && count($args["selectedCategories"]) > 0 ? json_encode($args["selectedCategories"]) : 'null';
+    $selectedCategories = isset($args["selectedCategories"]) && is_array($args["selectedCategories"]) && count($args["selectedCategories"]) > 0 ? str_replace(array('[', ']'), array("{", "}"), json_encode($args["selectedCategories"], JSON_FORCE_OBJECT)) : 'null';
     unset($args['selectedCategories']);
-    $nextButton = '<div id="pager_' . $page_num . '"><button id="next_button_' . $page_num . '" type="button">' . __('next', 'boat-shortcodes') . '</button></div>';
+    $nextButton = '<div id="pager_' . $page_num . '"><button id="next_button_' . $page_num . '" class="next_button" type="button">' . __('next', 'boat-shortcodes') . '</button></div>';
     $nextButton .= '<script>
                         var rows    = jQuery("#boats-lists").children(".row").size();
-                        var count   = jQuery("#count_of_boats").attr("attr-count");
-                        console.log(count);
-                        
+                        var count   = parseInt(jQuery("#count_of_boats").attr("attr-count")); console.log(count);
                         if (count <= rows){
                             jQuery("#next_button_' . $page_num . '").remove();
                         } else {
@@ -839,8 +831,6 @@ function listazas($args)
                                             load_info_bouble();
                 
                                             jQuery(".fromto").each(function(){
-                                               // console.log(jQuery(this).attr("attr-from"));
-                                               // console.log(date_from);
                                                 if(jQuery(this).attr("attr-from")!==jQuery("#date_from").val()){
                                                     jQuery(this).addClass("flex");
                                                 }
@@ -870,11 +860,11 @@ function only_boats_list2($args)
     $result = isset($result) && isset($result->content) ? $result->content : 'Nincs ilyen template';
 
     $return = '';
-    
+
     $d = strtotime("next Saturday");
     $date_from = date('Y-m-d', $d);
 
-    if (isset($args['date_from'])) { 
+    if (isset($args['date_from'])) {
         $date2 = strtotime($args['date_from']);
         if ($date2 && intval(time()) < intval($date2)) {
             $date_from = date('Y-m-d', $date2);
@@ -883,7 +873,8 @@ function only_boats_list2($args)
             //$resultTitle = isset($result) && isset($result->title) ? $result->title : 'Nincs ilyen oldal';
             //$result = isset($result) && isset($result->content) ? $result->content : 'Nincs ilyen oldal';
             $script = '<script>jQuery(".page-header-wrapper").hide();
-            jQuery(".own-contact-form").removeClass("hidden");</script>';
+            // jQuery(".own-contact-form").removeClass("hidden");
+            </script>';
             $return =
                 '<div id="page-header-1631306575" class="page-header-wrapper">
                 <div class="page-title help-h1 light simple-title">
@@ -902,7 +893,7 @@ function only_boats_list2($args)
     if (isset($args['datas'])) {
         $datas = $args['datas'];
     }
-    
+
 
 
 
@@ -923,7 +914,7 @@ function only_boats_list2($args)
     $flexibility = (isset($args['flexibility']) && $args['flexibility'] != "undefinied" && $args['flexibility'] != "") ? $args['flexibility'] : 'on_day';
     $duration = (isset($args['duration']) && intval($args['duration'])) ? intval($args['duration']) : 7;
     $ignoreOptions = isset($args['ignoreOptions']) ? strval($args['ignoreOptions']) : '0'; // ($args['ignoreOptions']); */
-    $args['date_from'] = empty($args['date_from'])?$date_from:$args['date_from'];
+    $args['date_from'] = empty($args['date_from']) ? $date_from : $args['date_from'];
     $boatList2 = only_boats_list3($args);
     $boatList2Count = isset($boatList2->count) ? $boatList2->count : 0;
     $perPage        = isset($boatList2->perPage) ? $boatList2->perPage : 0;
@@ -933,13 +924,15 @@ function only_boats_list2($args)
         foreach ($boatList2 as $boat) {
             $return .= boatDatas($boat->id, $result);
         }
-        $return .= '<script>jQuery(".own-contact-form").addClass("hidden");</script>';
+        $return .= '<script> //jQuery(".own-contact-form").addClass("hidden");
+        </script>';
     } else {
         $result = ''; // $wpdb->get_row("SELECT post_title title, post_content content from {$wpdb->prefix}posts where post_type like 'boat-template' and post_name like 'find-the-perfect-boat-2'", OBJECT);
         $resultTitle = ''; //isset($result) && isset($result->title) ? $result->title : 'Nincs ilyen oldal';
         //$result = isset($result) && isset($result->content) ? $result->content : 'Nincs ilyen oldal';
         $script = '<script>jQuery(".page-header-wrapper").hide(); 
-        jQuery(".own-contact-form").removeClass("hidden");</script>';
+        //jQuery(".own-contact-form").removeClass("hidden");
+        </script>';
         $return =
             '<div id="page-header-1631306575" class="page-header-wrapper">
             <div class="page-title help-h1 light simple-title">
@@ -976,14 +969,13 @@ function only_boats_list2($args)
 
     $page_num = isset($args['page_num']) ? (intval($args['page_num']) + 1) : 2;
     unset($args['page_num']);
-    $selectedCategories = isset($args["selectedCategories"]) && is_array($args["selectedCategories"]) && count($args["selectedCategories"]) > 0 ? str_replace(array('"'), array("'"), json_encode($args["selectedCategories"], 1)) : 'null';
+    $selectedCategories = isset($args["selectedCategories"]) && is_array($args["selectedCategories"]) && count($args["selectedCategories"]) > 0 ? str_replace(array('[', ']'), array("{", "}"), json_encode($args["selectedCategories"], JSON_FORCE_OBJECT)) : 'null';
     unset($args['selectedCategories']);
     $dests = trim($dests, ", ");
-    $nextButton = '<div id="pager_' . $page_num . '"><button id="next_button_' . $page_num . '" type="button">' . __('next', 'boat-shortcodes') . '</button></div>';
+    $nextButton = '<div id="pager_' . $page_num . '"><button id="next_button_' . $page_num . '" class="next_button" type="button">' . __('next', 'boat-shortcodes') . '</button></div>';
     $nextButton .= '<script>
                         var rows    = jQuery("#boats-lists").children(".row").size();
-                        var count   = jQuery("#count_of_boats").attr("attr-count");
-                       console.log(count);
+                        var count   = parseInt(jQuery("#count_of_boats").attr("attr-count")); console.log(count);
                         var page    = 2;
                         if (count <= rows){
                             jQuery("#next_button_' . $page_num . '").remove();
@@ -1072,8 +1064,8 @@ function all_free_boats($date_from, $duration, $flexibility = "on_day", $dest_id
 
     $data = json_encode($fields);
 
-    $url = get_option('yii_url', '/') . 'booking/allfreeyachts'; ///var_dump($url); var_dump($data);
-    
+    $url = get_option('yii_url', '/') . 'booking/allfreeyachts';
+
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
@@ -1097,7 +1089,7 @@ function all_free_boats($date_from, $duration, $flexibility = "on_day", $dest_id
         $exec = json_decode($exec, false);
     else
         return array();
-    
+
     $list = array();
 
     $return = isset($exec->list) ? $exec->list : array();
@@ -1133,16 +1125,16 @@ function this_boat($date_from, $date_to, int $boat_id)
 
     //$url = get_option('yii_url', '/').'index.php?r=booking/thisyacht&'.$data;
     $url = get_option('yii_url', '/') . 'booking/thisyacht?' . $data;
-    $return = file_get_contents($url); //var_dump($return);
+    $return = file_get_contents($url);
     if ($return)
         $return = json_decode($return);
-//var_dump($return);
+
     global $boatDatas;
     if (empty($boatDatas))
         $boatDatas = array();
 
-    if (is_array($return) && count($return) > 0) {
-        foreach ($return[0] as $key => $data) {
+    if (is_object($return)) {
+        foreach ($return as $key => $data) {
             $boatDatas[$key] = $data;
         }
         return 1;
@@ -1175,7 +1167,7 @@ function all_free_boats_with_locations($date_from, $duration, $flexibility = "on
         $fields['selectedCategories'] = $args['selectedCategories'];
     //($ports);
     $data = json_encode($fields);
-    $url = get_option('yii_url', '/') . 'booking/allfreeyachts';
+    $url = get_option('yii_url', '/') . 'booking/allfreeyachts'; // var_dump($url); var_dump($data);
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
@@ -1458,49 +1450,53 @@ function boat_search($args)
 {
     $date_from = date('Y-m-d', strtotime('next Saturday'));
     if (isset($args['date_from']))
-    $date_from = $args['date_from'];
+        $date_from = $args['date_from'];
     $dest_id = isset($args["dest_id"]) ? $args["dest_id"] : 0;
-    $file_name = __DIR__."/../searches/file_{$dest_id}_{$date_from}";
-    $file_name .= isset($args['selectedCategory'])?$args['selectedCategory']:'';
-    if (isset($args['felso_e']) && isset($_GET['selectedCategories'][0])){
-        $file_name .= isset($_GET['selectedCategories'][0])?$_GET['selectedCategories'][0]:'';
-    } else if (isset($args['selectedCategory'])){
-        $file_name .= isset($args['selectedCategory'])?$args['selectedCategory']:'';
+    $file_name = __DIR__ . "/../searches/file_{$dest_id}_";
+    //$file_name .= isset($args['selectedCategory']) ? $args['selectedCategory'] : '';
+    if (isset($args['felso_e']) && isset($_GET['selectedCategories'][0])) {
+
+        $file_name .= isset($_GET['selectedCategories'][0]) ? $_GET['selectedCategories'][0] : '';
+    } else if (isset($args['selectedCategory'])) {
+        $file_name .= isset($args['selectedCategory']) ? $args['selectedCategory'] : '';
     }
     $result = '';
-    if (file_exists($file_name))
-    $result = file_get_contents($file_name);
-    else {
+    if (file_exists($file_name)) {
+        $values = '';
+        if (isset($_GET['selectedDestionations'])) {
+            foreach ($_GET['selectedDestionations'] as $dest) {
+                $values .= ", '$dest'";
+            }
+            
+            $values = trim($values, ', ');
+            
+        }
+        $result = '<script> let dest_ids = [-1,'.$values.']; </script>' . file_get_contents($file_name);
+    } else {
         $result = do_shortcode(boat_search_generate($args));
         $file   = fopen($file_name, 'w');
         fwrite($file, $result);
         fclose($file);
     }
     $script = '';
-    if (isset($args['felso_e']) ){
-        $script = '<script>';
-     
-        $values = '';
-        if(isset($_GET['selectedDestionations'])) {
-            foreach ($_GET['selectedDestionations'] as $dest){
-                $values .= ', '.$dest;
-                
-            }
-            $values = trim($values, ', ');
-            $script .= ' jQuery("#oldalso").val(['.$values.']).trigger("change");';
-        }
-        if (isset($_GET['date_from'])){ 
+    if (isset($args['felso_e'])) {
+        $script = '<script> ';
+        if (isset($_GET['date_from'])) {
             $date_from = $_GET['date_from'];
-            $duration = isset($_GET['duration'])?$_GET['duration']:7;
-            $script .= ' jQuery("#date_from").val("'.$date_from.'");';
-            $script .= ' jQuery("#duration").val('.$duration.'); ';
+            $duration = isset($_GET['duration']) ? $_GET['duration'] : 7;
+            $script .= ' jQuery("#date_from").val("' . $date_from . '");';
+            $script .= ' jQuery("#duration").val(' . $duration . '); ';
         }
-        
-        
         $script .= '</script>';
-        
+    } else if (isset($_GET['date_from'])) {
+        $script = '<script>';
+        $date_from = $_GET['date_from'];
+        $duration = isset($_GET['duration']) ? $_GET['duration'] : 7;
+        $script .= ' jQuery("#date_from").val("' . $date_from . '");';
+        $script .= ' jQuery("#duration").val(' . $duration . '); ';
+        $script .= '</script>';
     }
-    return $result.$script;
+    return $result . $script;
 }
 
 function boat_search_generate($args)
@@ -1518,7 +1514,7 @@ function boat_search_generate($args)
     }
 
     $yachtCategory = json_encode($yachtCategory);
-var_dump($yachtCategory);
+
     $result = $wpdb->get_row("SELECT post_content content from {$wpdb->prefix}posts where post_type like'boat-template' and post_title like 'hajo_kereso'", OBJECT);
     $result = isset($result) && isset($result->content) ? $result->content : 'Nincs ilyen template';
     $dest_id = isset($args["dest_id"]) ? $args["dest_id"] : 0;

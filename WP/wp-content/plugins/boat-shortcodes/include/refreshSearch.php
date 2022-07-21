@@ -19,7 +19,8 @@ if ( $the_query->have_posts() ) {
 }
 /* Restore original Post Data */
 wp_reset_postdata();
-boat_search($args);
+unset($args['dest_id']);
+boat_search($args);var_dump($args);
 $types = $wpdb->get_results("SELECT distinct name as name_ from yacht_category", OBJECT);
 foreach ($types as $type){
     $args['selectedCategory']= $type->name_;

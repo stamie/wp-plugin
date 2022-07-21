@@ -603,13 +603,10 @@ function destination_modification($args)
     //$return .= destSelector("oldalso", $dest_ids);
     $return .= '<script>
         var $ = jQuery.noConflict();
-       
         function formatState2_1 (state) {
-           // console.log(state.element);
             if (!state.id) {
               return state.text;
             }
-            
             var index = 1;
             var str = "-";
             var bool = state.text.startsWith(str.repeat(index));
@@ -660,14 +657,15 @@ function destination_modification($args)
             url: "/wp-content/plugins/boat-shortcodes/include/ajaxSelectForDest.php",
             method: \'POST\',
             data: {
-                dest_ids: '.$dest_ids.' 
+                "dest_ids": dest_ids 
             },
         }).done(function(msg) { 
             jQuery("#oldalso").html(msg);
-            $("#oldalso").select2({
+            $oldalso = $("#oldalso").select2({
                 templateResult: formatState2_1,
                 templateSelection: formatState2_2,
             });
+           
         });
         </script>';
     return $return;

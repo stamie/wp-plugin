@@ -524,19 +524,10 @@ function run_waitMe(el, num, effect){
             }
         //}
     }
-    //if (x){
         $('.boatsearch').on('click', function(){ 
             boatsearch();
         });
-    //}
-   /*
-    $(".date").on('mouseup', function(){ 
-        console.log($("#date_from").val());
-        console.log($("#date_from").html());
-        
-        
-    });
- */
+   
     $("#duration, .models, .service_name-selector, .service_types-selector").on('change', function(){ 
         boatsearch();
     });    
@@ -576,7 +567,6 @@ function run_waitMe(el, num, effect){
             selectedCategories = allCategories;
         }
         var $destinations = $("#felso").children("option");
-        console.log($destinations);
         var selectedDestionations = [];
         $destinations.each(function () {
             if ($(this).prop('selected')==true)

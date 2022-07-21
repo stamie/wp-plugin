@@ -28,7 +28,7 @@ function load_tree_boats($args) //1 sailboat, 1 catamaran, 1 motoryact
               CURLOPT_CUSTOMREQUEST => 'GET',
             ));
             $response = curl_exec($curl);
-            curl_close($curl);
+            curl_close($curl); 
             $return = '<div id="' . $args["dest_id"] . '"><div class="bigContent">' .  $response . '</div>';
             
             return do_shortcode($return, false);

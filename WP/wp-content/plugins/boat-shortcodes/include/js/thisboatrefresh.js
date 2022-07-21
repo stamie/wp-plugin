@@ -22,7 +22,7 @@ function floatFormat(numberFloat){
     return string;
 }
 function thisboatrefresh(){
-    //console.log(x);
+
     if (x === undefined || x === null) {
         var boat_id   = jQuery(".title").first().attr("attr-id");
         var date_from = jQuery("#check_in").val();
@@ -111,12 +111,11 @@ function thisboatrefresh(){
                     var dateTo_     = htmlDateFromTo.substring(14);
 
                     if (jQuery("a.button.make_option").first().attr("href") !== undefined){ 
-                        var href = jQuery("a.button.make_option").first().attr("href");console.log(href);
+                        var href = jQuery("a.button.make_option").first().attr("href");
                         if (href !== undefined && href.indexOf("&")>-1){
                             var index = href.indexOf("&")+1;
                             if(href.indexOf("&", index)==-1)
                                 index = 0;
-                                console.log(href);
                             href = href.substring(0,href.indexOf("&", index));
                         }
                         jQuery("a.button.make_option").attr("href",href+'&date_from='+dateFrom_+'&date_to='+dateTo_);
@@ -205,12 +204,11 @@ var dateFromTo = jQuery(".dateFromTo").html();
 if (dateFromTo !== undefined){
     var dateFrom_   = dateFromTo.substring(0,11);
     var dateTo_    = dateFromTo.substring(14);
-    var href = jQuery("a.button.make_option").first().attr("href"); console.log(href);
+    var href = jQuery("a.button.make_option").first().attr("href");
     if (href !== undefined && href.indexOf('&')>-1){ //alert(href);
         var index = href.indexOf("&")+1;
         if(href.indexOf("&", index)==-1)
             index = 0;
-        console.log(href);
         href = href.substring(0,href.indexOf("&", index));
     }
     if (jQuery("a.button.make_option").first().attr("href") !== undefined){

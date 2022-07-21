@@ -36,7 +36,7 @@ if (typeof jQuery === 'undefined') { throw new Error('DCalendar.Picker: This plu
 
 		DCalendar = function(elem, options) {
 			this.elem = $(elem);
-			this.options = options; // console.log(options);
+			this.options = options;
 			this.calendar = null;		//calendar container
 			this.today = new Date(Date.now()-(86400000 * diff));	//current date
 

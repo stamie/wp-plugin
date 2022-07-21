@@ -40,7 +40,7 @@ function boats_list_felso($args)
     [boat-search felso_e="1"]
     [/col_inner]
     [col_inner span="9" span__sm="12"]
-    <div class="own-contact-form hidden">' . $result3 . '</div>
+    
     <div class="loader"><div class="waitContainer"></div></div><div id="short_by">' . $result2 . '</div><div id="boats-lists">
     ';
     $orderBy = 2;
@@ -68,7 +68,8 @@ function boats_list_felso($args)
     else
         $boatList = array();
     $return .= 
-        '[/col_inner]    
+        '<div class="own-contact-form">' . $result3 . '</div>
+        [/col_inner]    
     [/row_inner]';
     $script = loadMainPictures();
     return do_shortcode($return).$script;
@@ -335,7 +336,6 @@ function destinations_felso($args)
             var str = "-";
             while (strState.indexOf(str)==0){
                 strState = strState.substr(1);
-                console.log(strState);
             }
             state.text = strState;
             var $state = $(

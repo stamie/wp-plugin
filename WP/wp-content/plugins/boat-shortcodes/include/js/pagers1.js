@@ -108,7 +108,7 @@ function load_info_bouble(prevMessage = 'Previously available period', nextMessa
         }).done(function(datas){
             var datas_ = datas.returns;
             var size = Object.keys(datas_).length;
-        // console.log(size);
+
             for(var index = 0; index < size; index++) {
 
                 var id_ = id[index];

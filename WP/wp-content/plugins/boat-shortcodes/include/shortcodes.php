@@ -193,11 +193,11 @@ function your_options_table($args)
         $by = "DESC";
     }
 
-
-    global $wpdb; //SELECT p.post_title FROM {$wpdb->prefix}posts p WHERE p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.id = bo.yacht_id)
+    global $wpdb_id;
+    global $wpdb; 
     $sql = "SELECT bo.user_price, bo.currency, bo.id bo_id, p.post_title, p.post_name, p.ID wp_id, c.name country_name, x.class_name, bo.`xml_json_id`, bo.`period_from`, bo.`period_to`, bo.`reservation_status`, bo.`create_date`, bo.`modify_date`, bo.`user_id`, bo.`last_name`, bo.`first_name`, bo.`city`, bo.`zip_code`, bo.`address`, bo.`phone_number`, bo.`email`, bo.`company`, bo.`vat_number`, bo.yacht_id, y.wp_name FROM `boat_option` as bo left join `xml` as x
  ON x.id = bo.xml_id left join country as c on c.xml_id=bo.xml_id and c.xml_json_id=bo.country left join yacht y ON y.id = bo.yacht_id
- left join {$wpdb->prefix}posts p ON p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.id = bo.yacht_id) where bo.user_id={$current_user->ID}
+ left join {$wpdb->prefix}posts p ON p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.wp_prefix = {$wpdb_id->id} and wy.id = bo.yacht_id) where bo.user_id={$current_user->ID}
  ORDER BY $order $by";
 
     $rows = $wpdb->get_results($sql, OBJECT);
@@ -268,6 +268,7 @@ function your_options_table($args)
 add_shortcode('your-options-table', 'your_options_table');
 function this_otion()
 {
+    global $wpdb_id;
     $return = '';
     $current_user = wp_get_current_user();
     if (isset($_GET['option']) && isset($current_user->ID)) {
@@ -275,7 +276,7 @@ function this_otion()
         global $wpdb; //SELECT p.post_title FROM {$wpdb->prefix}posts p WHERE p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.id = bo.yacht_id)
         $sql = "SELECT bo.currency, bo.user_price, bo.list_price, bo.id bo_id, p.post_title, p.post_name, p.ID wp_id, c.name country_name, x.class_name, bo.`xml_json_id`, bo.`period_from`, bo.`period_to`, bo.`reservation_status`, bo.`create_date`, bo.`modify_date`, bo.`user_id`, bo.`last_name`, bo.`first_name`, bo.`city`, bo.`zip_code`, bo.`address`, bo.`phone_number`, bo.`email`, bo.`company`, bo.`vat_number`, bo.yacht_id, y.wp_name FROM `boat_option` as bo left join `xml` as x
         ON x.id = bo.xml_id left join country as c on c.xml_id=bo.xml_id and c.xml_json_id=bo.country left join yacht y ON y.id = bo.yacht_id
-        left join {$wpdb->prefix}posts p ON p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.id = bo.yacht_id) where bo.user_id={$current_user->ID} and bo.id={$option_id} 
+        left join {$wpdb->prefix}posts p ON p.ID in (SELECT wy.wp_id FROM wp_yacht wy WHERE wy.wp_prefix = {$wpdb_id->id} wy.id = bo.yacht_id) where bo.user_id={$current_user->ID} and bo.id={$option_id} 
         ORDER BY bo.`id` DESC";
 
         $row = $wpdb->get_row($sql, OBJECT);
@@ -424,11 +425,9 @@ add_shortcode('this-otion', 'this_otion');
 function boat_title($args)
 {
     global $wpdb;
-
-
+    global $wpdb_id;
     $id = intval($args['id']);
-
-    $query = "SELECT post_title FROM {$wpdb->prefix}posts WHERE ID in (SELECT wp_id FROM wp_yacht WHERE id = $id)";
+    $query = "SELECT ID, post_title FROM {$wpdb->prefix}posts WHERE ID in (SELECT wp_id FROM wp_yacht WHERE wp_prefix = {$wpdb_id->id} and id = $id)";
     $object = $wpdb->get_row($query, OBJECT);
 
     if (isset($object)) {
@@ -1416,6 +1415,6 @@ function option_button($args)
         </script>';
         
     }
-    return ''; //$return;
+    return $return;
 }
 add_shortcode('option-button', 'option_button');
